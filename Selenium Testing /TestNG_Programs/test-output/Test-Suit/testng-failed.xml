@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test-Suit]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Amazon-flipkart(failed)">
+    <groups>
+      <run>
+        <include name="include-group"/>
+        <exclude name="exclude-group"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Practise.FlipkartAndAmazon">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="search"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Practise.FlipkartAndAmazon -->
+    </classes>
+  </test> <!-- Amazon-flipkart(failed) -->
+</suite> <!-- Failed suite [Test-Suit] -->

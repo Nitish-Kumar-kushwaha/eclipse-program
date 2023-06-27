@@ -1,0 +1,6 @@
+com/hibernate/connection/HibernateConfigure.class
+com/hibernate/dao/ProductDao.class
+com/hibernate/model/Products.class
+com/servlet/InitHibernate.class
+com/servlet/showServlet.class
+com/servlet/insertServlet.class

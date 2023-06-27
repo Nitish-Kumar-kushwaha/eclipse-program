@@ -1,0 +1,5 @@
+package firstSpringApp.hibernate.connection;
+
+public class HibernateConfigure {
+
+}

@@ -1,0 +1,25 @@
+
+h
+java:S2583,"CChange this condition so that it does not always evaluate to "true"(¾šô™H¢RMAJORZBUG
+f
+java:S1161 ":Add the "@Override" annotation above this method signature(‚“¶îH¦RMAJORZ
+CODE_SMELL
+f
+java:S1161'":Add the "@Override" annotation above this method signature(ÔÏ‘éH¨RMAJORZ
+CODE_SMELL
+i	java:S106("9Replace this use of System.out or System.err by a logger.(ª¸÷ÏûÿÿÿÿHªRMAJORZ
+CODE_SMELL
+”
+java:S2178,"fCorrect this "|" to "||" and extract the right operand to a variable if it should always be evaluated.(¾šô™H«RBLOCKERZ
+CODE_SMELL
+O
+java:S6396,"#Remove this unnecessary quantifier.(¾šô™H¬RMAJORZ
+CODE_SMELL
+h
+java:S6353,"<Use concise character class syntax '\\d' instead of '[0-9]'.(¾šô™H­RMINORZ
+CODE_SMELL
+c	java:S1064"9Replace this use of System.out or System.err by a logger.(‹†î@H®RMAJORZ
+CODE_SMELL
+k
+java:S1161=":Add the "@Override" annotation above this method signature(àä™´ýÿÿÿÿH¯RMAJORZ
+CODE_SMELL

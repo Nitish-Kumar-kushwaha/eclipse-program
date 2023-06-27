@@ -1,0 +1,32 @@
+
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÑçË‡HáRMINORZ
+CODE_SMELL
+p
+java:S1128	"?Remove this unused import 'org.testng.annotations.AfterMethod'.(ÙÅ«§ÿÿÿÿÿHÕRMINORZ
+CODE_SMELL
+s	java:S1254"<This block of commented-out lines of code should be removed.(É¨Œúÿÿÿÿ8ŠÁ1HŞRMAJORZ
+CODE_SMELL
+q
+java:S1128"@Remove this unused import 'org.testng.annotations.BeforeMethod'.(‹åóùùÿÿÿÿHÚRMINORZ
+CODE_SMELL
+i	java:S106H"9Replace this use of System.out or System.err by a logger.(¡¨ıºûÿÿÿÿHÔRMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(¢¿àÜøÿÿÿÿHâRMAJORZ
+CODE_SMELL
+Q
+java:S1659"%Declare "driver1" on a separate line.(í¯‹±HÜRMINORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(ÿ¿™ıÿÿÿÿHàRMAJORZ
+CODE_SMELL
+i	java:S106!"9Replace this use of System.out or System.err by a logger.(ä‚®ûÿÿÿÿH×RMAJORZ
+CODE_SMELL
+Z
+java:S1128".Remove this unused import 'org.testng.Assert'.(Ø£ÿ§HØRMINORZ
+CODE_SMELL
+q
+java:S1128">Remove this unused import 'org.testng.annotations.AfterClass'.(´ä8¥×Ë´1H˜RMINORZ
+CODE_SMELL
+w
+java:S1128
+"?Remove this unused import 'org.testng.annotations.BeforeClass'.(Ó¨Ş¨ûÿÿÿÿ8¥×Ë´1HšRMINORZ
+CODE_SMELL

@@ -1,0 +1,14 @@
+
+{
+java:S1192"GDefine a constant instead of duplicating this literal "iframe" 3 times.(£îˆìÿÿÿÿÿH¥	RCRITICALZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(¶Ž¤¦þÿÿÿÿH©	RMAJORZ
+CODE_SMELL
+i	java:S106&"9Replace this use of System.out or System.err by a logger.(ÿ’ñÖýÿÿÿÿHª	RMAJORZ
+CODE_SMELL
+c	java:S106*"9Replace this use of System.out or System.err by a logger.(™œ£)H«	RMAJORZ
+CODE_SMELL
+i	java:S1062"9Replace this use of System.out or System.err by a logger.(§ÃäéþÿÿÿÿH¬	RMAJORZ
+CODE_SMELL
+l	java:S125:"<This block of commented-out lines of code should be removed.(£îˆìÿÿÿÿÿH­	RMAJORZ
+CODE_SMELL

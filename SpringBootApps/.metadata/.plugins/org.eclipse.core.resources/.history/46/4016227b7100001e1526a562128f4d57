@@ -1,0 +1,53 @@
+package com.RestAPICurdOperations.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.RestAPICurdOperations.model.Product;
+import com.RestAPICurdOperations.repo.ProductRepo;
+
+@Service
+public class ProductServiceImpl implements ProductService {
+
+	@Autowired
+	ProductRepo prepo;
+	
+	@Override
+	public String AddNewProduct(Product prod) {
+		
+		Product p = prepo.save(prod);
+		
+		if(p!= null) {
+			return "Success";
+		}
+		
+		return "error";
+	}
+
+	@Override
+	public List<Product> ShowAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Product GetAProduct(int prdId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String UpdateProduct(Product prod) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String DeleteProduct(int prdId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

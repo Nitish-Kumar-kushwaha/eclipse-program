@@ -1,0 +1,19 @@
+package com.DAO;
+
+import org.hibernate.SessionFactory;
+
+import com.Hibernate.connection.HibernateConfigure;
+
+public class ProductDao {
+	
+	private SessionFactory sessionFactory;
+
+	public ProductDao() {
+		
+		sessionFactory = HibernateConfigure.getconnection();
+	}
+	
+	
+	
+
+}

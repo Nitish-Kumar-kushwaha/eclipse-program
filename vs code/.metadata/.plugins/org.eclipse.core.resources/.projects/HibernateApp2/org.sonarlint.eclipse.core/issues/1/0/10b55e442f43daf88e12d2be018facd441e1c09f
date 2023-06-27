@@ -1,0 +1,39 @@
+
+[
+java:S3740&"/Provide the parametrized type for this generic.(ËòØ«HZRMAJORZ
+CODE_SMELL
+`
+java:S37400"/Provide the parametrized type for this generic.(½¾ÉÂşÿÿÿÿH‘ZRMAJORZ
+CODE_SMELL
+[
+java:S3740A"/Provide the parametrized type for this generic.(ÑÄšºH’ZRMAJORZ
+CODE_SMELL
+Š
+java:S2293#"YReplace the type specification in this constructor call with the diamond operator ("<>").(õÀ“ºúÿÿÿÿH“ZRMINORZ
+CODE_SMELL
+q
+java:S2095%"EUse try-with-resources or close this "Session" in a "finally" clause.(²Ö÷úÿÿÿÿH•ZRBLOCKERZBUG
+q
+java:S2095?"EUse try-with-resources or close this "Session" in a "finally" clause.(¬ƒŠ¹şÿÿÿÿH–ZRBLOCKERZBUG
+Y
+java:S1874&"-Remove this use of "Query"; it is deprecated.(ËòØ«H—ZRMINORZ
+CODE_SMELL
+~	java:S100+"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑŸ¹ßúÿÿÿÿH˜ZRMINORZ
+CODE_SMELL
+[
+java:S1172+"*Remove this unused method parameter "eno".(ÑŸ¹ßúÿÿÿÿH™ZRMAJORZ
+CODE_SMELL
+^
+java:S18740"-Remove this use of "Query"; it is deprecated.(½¾ÉÂşÿÿÿÿH›ZRMINORZ
+CODE_SMELL
+y	java:S100>"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹ÇÓHœZRMINORZ
+CODE_SMELL
+Y
+java:S1874A"-Remove this use of "Query"; it is deprecated.(ÑÄšºHZRMINORZ
+CODE_SMELL
+c
+java:S1874B"2Remove this use of "setInteger"; it is deprecated.(¦„¾şÿÿÿÿHZRMINORZ
+CODE_SMELL
+[
+java:S1128"/Remove this unused import 'java.util.Iterator'.(¥ÍòÕHŸZRMINORZ
+CODE_SMELL

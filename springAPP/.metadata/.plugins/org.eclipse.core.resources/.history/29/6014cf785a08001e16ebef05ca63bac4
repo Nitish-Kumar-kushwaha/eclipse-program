@@ -1,0 +1,5 @@
+package firstSpringApp.service;
+
+public class UserService {
+
+}

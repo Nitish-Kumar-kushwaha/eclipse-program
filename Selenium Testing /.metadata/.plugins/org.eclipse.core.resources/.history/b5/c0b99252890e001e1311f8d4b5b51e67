@@ -1,0 +1,66 @@
+package com.SeleniumPractise;
+
+import java.util.Iterator;
+import java.util.Set;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class AmazonP {
+	public static void main(String[] args) throws InterruptedException{
+		WebDriver driver = new ChromeDriver();
+		
+		driver.get("https://www.amazon.in/");
+		driver.manage().window().maximize();
+		Thread.sleep(2000);
+		
+		System.out.println("Window opened...");
+		
+		Thread.sleep(1000);
+		
+		driver.findElement(By.id("twotabsearchtextbox")).sendKeys("TV");
+		
+		Thread.sleep(1000);
+		System.out.println("Value Entered....");
+		
+		driver.findElement(By.id("nav-search-submit-button")).click();
+		System.out.println("button clicked");
+		
+		Thread.sleep(1000);
+		
+		WebElement samsung = driver.findElement(By.xpath("//*[@data-csa-c-content-id=\"p_89/Samsung\"]/li/span/a"));
+		String text = samsung.getText();
+		System.out.println(text);
+		boolean isEnabled = samsung.isEnabled();
+		System.out.println(isEnabled);
+		samsung.click();
+		
+		WebElement oneplus = driver.findElement(By.xpath("//*[@data-csa-c-content-id=\"p_89/LG\"]/li/span/a"));
+		System.out.println(oneplus.getText());
+		oneplus.click();
+		System.out.println(isEnabled);
+		
+		System.out.println("next page");
+		
+		Thread.sleep(1000);
+		
+		driver.findElement(By.partialLinkText("Samsung 80 cm (32 Inches) Wondertainment Series HD Ready LED Smart TV UA32T4340BKXXL (Glossy Black)")).click();
+		
+		
+		System.out.println("to check the check box");
+		Thread.sleep(1000);
+		
+		WebElement checkbox =  driver.findElement(By.xpath("//*[@id=\"buyBackAccordionRow\"]"));
+		System.out.println(checkbox.getTagName());
+		checkbox.click();
+		
+		Thread.sleep(10000);
+		
+		
+        
+		
+		driver.close();
+	}
+}

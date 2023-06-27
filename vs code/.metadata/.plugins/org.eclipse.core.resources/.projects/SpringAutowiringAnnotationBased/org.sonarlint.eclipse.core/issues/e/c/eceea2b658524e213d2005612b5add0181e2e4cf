@@ -1,0 +1,16 @@
+
+~	java:S100+"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»³‡ÖüÿÿÿÿHâXRMINORZ
+CODE_SMELL
+i	java:S106,"9Replace this use of System.out or System.err by a logger.(ÙÓ¥°ûÿÿÿÿHãXRMAJORZ
+CODE_SMELL
+d	java:S106-"9Replace this use of System.out or System.err by a logger.(‹‡¹¦HäXRMAJORZ
+CODE_SMELL
+d	java:S106."9Replace this use of System.out or System.err by a logger.(Ñêç…HåXRMAJORZ
+CODE_SMELL
+i	java:S106/"9Replace this use of System.out or System.err by a logger.(ÏÇÜ˜ýÿÿÿÿHæXRMAJORZ
+CODE_SMELL
+i	java:S1060"9Replace this use of System.out or System.err by a logger.(à ÓµüÿÿÿÿHçXRMAJORZ
+CODE_SMELL
+R
+java:S1128"&Remove this unused import 'java.util'.(Î€ŒÙHèXRMINORZ
+CODE_SMELL

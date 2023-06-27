@@ -1,0 +1,17 @@
+package com.Assignment1;
+
+import java.text.ParseException;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class LocatingWebPage  {
+	
+	public static void main(String[] args) throws ParseException, InterruptedException {
+		
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.amazon.in/");
+		
+	}
+
+}

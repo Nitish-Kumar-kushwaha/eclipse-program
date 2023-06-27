@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd" >
+   
+   
+   <bean id="cource" class="com.beans.Cource">
+   	<property name="cname" value="Java"/>
+   	<property name="duration" value="6 months"/>
+   	<property name="fees" value="288890.0"/>
+   	
+   	
+   </bean>
+   
+   <bean id="stdObj" class="com.beans.Student" autowire="byType">
+  	<property name="sname" value="Nitish kumar kushwaha"/>
+  	<property name="location" value="Noida"/>
+  
+  <!--
+  	<property name="cource" ref="courObj"/>
+  	-->
+   
+   </bean>
+
+
+</beans>

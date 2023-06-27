@@ -1,0 +1,24 @@
+
+‹
+java:S1488"ZImmediately return this expression instead of assigning it to the temporary variable "sf".(òÈ¿şÿÿÿÿHûYRMINORZ
+CODE_SMELL
+e
+java:S1118":Add a private constructor to hide the implicit public one.(¬ÕÂ(HşYRMAJORZ
+CODE_SMELL
+g	java:S125"<This block of commented-out lines of code should be removed.(Ô²¹ßHÿYRMAJORZ
+CODE_SMELL
+i
+java:S1128"=Remove this unused import 'org.hibernate.HibernateException'.(™òı²H€ZRMINORZ
+CODE_SMELL
+i
+java:S1128"8Remove this unused import 'org.hibernate.boot.Metadata'.(ò•ŠÿûÿÿÿÿH‚ZRMINORZ
+CODE_SMELL
+p
+java:S1128"?Remove this unused import 'org.hibernate.boot.MetadataSources'.(çÂÙáÿÿÿÿÿH„ZRMINORZ
+CODE_SMELL
+|
+java:S1128"PRemove this unused import 'org.hibernate.boot.registry.StandardServiceRegistry'.(Û‹ÜŒH†ZRMINORZ
+CODE_SMELL
+ˆ
+java:S1128"WRemove this unused import 'org.hibernate.boot.registry.StandardServiceRegistryBuilder'.(ƒ©¡üøÿÿÿÿHˆZRMINORZ
+CODE_SMELL

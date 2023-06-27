@@ -1,0 +1,46 @@
+package com.loginTest.Service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.loginTest.Model.Register;
+import com.loginTest.Repo.RegisterRepo;
+
+@Service
+public class RegisterServiceImpl implements RegisterService {
+
+	@Autowired
+	RegisterRepo regRepo;
+
+	@Override
+	public String AddRegister(Register reg) {
+
+		Register reg1 = regRepo.save(reg);
+
+		if (reg1 != null) {
+			return "Success";
+		}
+
+		return "Error";
+	}
+
+	@Override
+	public List<Register> ShowAll() {
+
+		return regRepo.findAll();
+	}
+
+	@Override
+	public Register showUser(String email) {
+
+		Register reg = regRepo.findByEmail(email);
+		if (reg != null) {
+			return reg;
+		}
+
+		return null;
+	}
+
+}

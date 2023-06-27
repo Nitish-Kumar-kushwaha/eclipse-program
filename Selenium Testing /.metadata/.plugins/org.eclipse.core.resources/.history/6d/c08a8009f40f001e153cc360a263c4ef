@@ -1,0 +1,28 @@
+package com.Assignment1;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class FrameNesting {
+	public static void main(String[] args) throws InterruptedException {
+		WebDriver driver = new ChromeDriver();	
+        
+        
+        driver.get("https://demo.automationtesting.in/Frames.html");
+        
+        int countIframesInPage = driver.findElements(By.tagName("iframe")).size();
+        System.out.println("Number of Frames on a Page:" + countIframesInPage);
+        Thread.sleep(5000);
+        driver.findElement(By.xpath("/html/body/section/div[1]/div/div/div/div[1]/div/ul/li[2]")).click();
+        Thread.sleep(3000);
+        System.out.println("clicked");
+        
+        WebElement textBox = driver.findElement(By.xpath("/html/body/section/div/div/div/input"));
+        textBox.sendKeys("nitish");
+        
+        
+        driver.close();
+	}
+}

@@ -1,0 +1,30 @@
+
+i	java:S106P"9Replace this use of System.out or System.err by a logger.(’šïØùÿÿÿÿH§RMAJORZ
+CODE_SMELL
+d	java:S106M"9Replace this use of System.out or System.err by a logger.(ØüÁÏH¦RMAJORZ
+CODE_SMELL
+c	java:S106!"9Replace this use of System.out or System.err by a logger.(éÐá0H RMAJORZ
+CODE_SMELL
+i	java:S106)"9Replace this use of System.out or System.err by a logger.(’šïØùÿÿÿÿH¢RMAJORZ
+CODE_SMELL
+s	java:S125"<This block of commented-out lines of code should be removed.(¬ÆŠ­øÿÿÿÿ8¤ÌÑ’1H©RMAJORZ
+CODE_SMELL
+d	java:S1060"9Replace this use of System.out or System.err by a logger.(Ü•ÝûH£RMAJORZ
+CODE_SMELL
+d	java:S106;"9Replace this use of System.out or System.err by a logger.(×È¡ëH¤RMAJORZ
+CODE_SMELL
+x	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÿµº¹HŸRMINORZ
+CODE_SMELL
+i	java:S106&"9Replace this use of System.out or System.err by a logger.(…ÿÑøûÿÿÿÿH¡RMAJORZ
+CODE_SMELL
+g	java:S125E"<This block of commented-out lines of code should be removed.(®ÐÄ‘H¥RMAJORZ
+CODE_SMELL
+m
+java:S1128":Remove this unused import 'java.util.concurrent.TimeUnit'.(Æ™þ8¥¡æ’1H­RMINORZ
+CODE_SMELL
+†
+java:S1128"NRemove this unused import 'org.openqa.selenium.support.ui.ExpectedConditions'.(û€Èéúÿÿÿÿ8¥¡æ’1H¯RMINORZ
+CODE_SMELL
+|
+java:S1128	"IRemove this unused import 'org.openqa.selenium.support.ui.WebDriverWait'.(¥÷ó8¥¡æ’1H±RMINORZ
+CODE_SMELL

@@ -1,0 +1,17 @@
+package firstSpringApp.practise;
+
+import firstSpringApp.model.User;
+import firstSpringApp.service.UserService;
+
+public class Practse {
+	public static void main(String[] args) {
+		UserService service = new UserService();
+		User u = new User();
+		u.setEmail("abnm@gmail.com");
+		u.setUserName("rashu");
+		u.setPassword("12345");
+		
+		
+	}
+
+}

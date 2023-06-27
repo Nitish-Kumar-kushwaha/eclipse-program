@@ -1,0 +1,11 @@
+
+
+server.port = 9094
+
+#server.servlet.context-path=/JPA
+#spring.application.name= SpringJpaApp
+#
+#
+#spring.mvc.view.prefix=/WEB-INF/MyAppPages/
+#spring.mvc.view.suffix=.jsp
+

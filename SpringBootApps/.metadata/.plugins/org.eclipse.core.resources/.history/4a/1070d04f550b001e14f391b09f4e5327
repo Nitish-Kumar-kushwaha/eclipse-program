@@ -1,0 +1,34 @@
+package com.loginTest;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import java.util.List;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import com.loginTest.Model.Register;
+import com.loginTest.Service.RegisterServiceImpl;
+
+@SpringBootTest
+class LogintestApplicationTests {
+
+	private RegisterServiceImpl regServiceImpl;
+
+	@Test
+	void contextLoads() {
+	}
+
+	@Test
+	void testTotalUser() {
+		List<Register> user = regServiceImpl.ShowAll();
+
+		Integer count = 0;
+		for (Register u : user) {
+			count++;
+		}
+
+		assertEquals(2, count);
+	}
+
+}

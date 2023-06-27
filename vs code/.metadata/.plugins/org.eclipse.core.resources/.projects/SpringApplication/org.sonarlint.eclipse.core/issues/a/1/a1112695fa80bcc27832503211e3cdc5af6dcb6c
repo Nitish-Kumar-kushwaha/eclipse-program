@@ -1,0 +1,22 @@
+
+i
+java:S1874"6Remove this use of "XmlBeanFactory"; it is deprecated.(¸õ©™8‹• “‚1H³YRMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ÈÑ±Öûÿÿÿÿ8‹• “‚1H´YRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(¡ÖÑçûÿÿÿÿ8Ñ¡“‚1HµYRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(Ô–Óóøÿÿÿÿ8Ñ¡“‚1H¶YRMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(Ù ŒÚ8‹• “‚1H·YRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Ñ¡“‚1H¸YRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ôë±Ïÿÿÿÿÿ8‹• “‚1H¹YRMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(úÈÆ¤8Ñ¡“‚1HºYRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ÖÕÊÿÿÿÿÿ8‹• “‚1H»YRMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.( Ó£8ù“£“‚1H¼YRMAJORZ
+CODE_SMELL

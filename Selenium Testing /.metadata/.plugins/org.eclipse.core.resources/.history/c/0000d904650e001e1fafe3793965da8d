@@ -1,0 +1,28 @@
+package com.SeleniumPractise;
+
+import java.text.ParseException;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Assignment6 {
+	
+	public static void main(String[] args) throws ParseException, InterruptedException {
+		
+		WebDriver driver = new ChromeDriver();	
+		driver.get("https://cosmocode.io/automation-practice-webtable");
+		
+		Thread.sleep(1000);
+		
+		List row = driver.findElements(By.xpath(".//*[@id=\"countries\"]/tbody/tr"));
+		System.out.println(row.size());
+		
+		List column = driver.findElements(By.xpath(".//*[@id=\"countries\"]/tbody/tr"));
+		System.out.println(column.size());
+		
+		driver.close();
+	}
+
+}

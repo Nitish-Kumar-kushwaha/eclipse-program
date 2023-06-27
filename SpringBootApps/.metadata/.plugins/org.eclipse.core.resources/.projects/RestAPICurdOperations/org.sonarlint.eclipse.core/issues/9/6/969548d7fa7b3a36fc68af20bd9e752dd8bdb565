@@ -1,0 +1,58 @@
+
+y	java:S1001"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øŸûäHšRMINORZ
+CODE_SMELL
+Š
+java:S2293$"YReplace the type specification in this constructor call with the diamond operator ("<>").(³è¡´úÿÿÿÿH›RMINORZ
+CODE_SMELL
+~	java:S100="NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ûøì÷üÿÿÿÿHRMINORZ
+CODE_SMELL
+w
+java:S4684("@Replace this persistent entity with a simple POJO or DTO object.(Ÿ÷ì•ûÿÿÿÿHRCRITICALZVULNERABILITY
+Œ
+java:S2293J"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÛÊƒÓ8Ö„¸‡1HŸRMINORZ
+CODE_SMELL
+~
+java:S4684F"@Replace this persistent entity with a simple POJO or DTO object.(É°½Ãşÿÿÿÿ8µ‘û·‡1H¡RCRITICALZVULNERABILITY
+…
+java:S22939"YReplace the type specification in this constructor call with the diamond operator ("<>").(ïã­ÿH¢RMINORZ
+CODE_SMELL
+k	java:S1063"9Replace this use of System.out or System.err by a logger.(çô®“8ŠÑ°¸‡1H¤RMAJORZ
+CODE_SMELL
+…
+java:S2293-"YReplace the type specification in this constructor call with the diamond operator ("<>").(§ÀÉßH¥RMINORZ
+CODE_SMELL
+‹
+java:S2293@"YReplace the type specification in this constructor call with the diamond operator ("<>").(¹œ¦$8ÄØñ·‡1H§RMINORZ
+CODE_SMELL
+ƒ
+java:S1192*"HDefine a constant instead of duplicating this literal "Success" 3 times.(®êÙŠúÿÿÿÿ8Ş¡‰¸‡1H©RCRITICALZ
+CODE_SMELL
+~	java:S100("NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ÷ì•ûÿÿÿÿH­RMINORZ
+CODE_SMELL
+…	java:S100F"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É°½Ãşÿÿÿÿ8Ùôù·‡1H®RMINORZ
+CODE_SMELL
+Œ
+java:S2293B"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ã—×8Ş¡‰¸‡1H¯RMINORZ
+CODE_SMELL
+Œ
+java:S2293L"YReplace the type specification in this constructor call with the diamond operator ("<>").(ü©‰×8½şƒ¸‡1H±RMINORZ
+CODE_SMELL
+Œ
+java:S2293N"YReplace the type specification in this constructor call with the diamond operator ("<>").(–ÒÕÇ8ÄØñ·‡1H³RMINORZ
+CODE_SMELL
+`
+java:S3740!"/Provide the parametrized type for this generic.(õŞÔüÿÿÿÿHµRMAJORZ
+CODE_SMELL
+Š
+java:S2293+"YReplace the type specification in this constructor call with the diamond operator ("<>").(¡ŒÎşÿÿÿÿH¶RMINORZ
+CODE_SMELL
+~
+java:S1128"FRemove this unused import 'org.springframework.stereotype.Controller'.(øŠ—Öùÿÿÿÿ8±Öä¸‡1H¸RMINORZ
+CODE_SMELL
+`
+java:S37406"/Provide the parametrized type for this generic.(õŞÔüÿÿÿÿHºRMAJORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Çú»H»RMINORZ
+CODE_SMELL
+y	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬³ï”H¼RMINORZ
+CODE_SMELL

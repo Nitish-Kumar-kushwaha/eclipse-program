@@ -1,0 +1,5 @@
+package firstSpringApp.model;
+
+public class User {
+
+}

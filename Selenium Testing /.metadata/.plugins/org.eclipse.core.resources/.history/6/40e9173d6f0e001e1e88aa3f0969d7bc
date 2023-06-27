@@ -1,0 +1,78 @@
+package com.SeleniumPractise;
+
+import java.util.Iterator;
+import java.util.Set;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class AmazonP {
+	public static void main(String[] args) throws InterruptedException{
+		WebDriver driver = new ChromeDriver();
+		
+		driver.get("https://www.amazon.in/");
+		driver.manage().window().maximize();
+		Thread.sleep(2000);
+		
+		System.out.println("Window opened...");
+		
+		Thread.sleep(1000);
+		
+		driver.findElement(By.id("twotabsearchtextbox")).sendKeys("TV");
+		
+		Thread.sleep(1000);
+		System.out.println("Value Entered....");
+		
+		driver.findElement(By.id("nav-search-submit-button")).click();
+		System.out.println("button clicked");
+		
+		Thread.sleep(1000);
+		
+//		WebElement samsung = driver.findElement(By.xpath("//li[@id='p_89/Samsung']"));
+//		boolean isEnabled = samsung.isEnabled();
+//		System.out.println(samsung);
+//		
+//		samsung.click();
+//		
+//		System.out.println(isEnabled);
+		
+		
+		
+		String MainWindow=driver.getWindowHandle();		
+        System.out.println("current window handler:  "+ MainWindow);
+        
+        Thread.sleep(3000);
+        
+        Set<String> s1=driver.getWindowHandles();
+        Iterator<String> i1=s1.iterator();
+        
+        while(i1.hasNext())			
+        {		
+            String ChildWindow=i1.next();	
+            System.out.println("current child window handler:  "+ ChildWindow);
+            Thread.sleep(2000); 
+            if(!MainWindow.equalsIgnoreCase(ChildWindow))			
+            {    		           
+                   
+                    driver.switchTo().window(ChildWindow);
+                    Thread.sleep(4000);
+                    driver.findElement(By.xpath("//*[class=\"a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal\"]"));             			
+                    
+                    Thread.sleep(4000);
+                    driver.findElement(By.xpath("//*[class=\"a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal\"]")).click();			
+                    Thread.sleep(4000);             
+			
+            driver.close();		
+            }		
+        }		
+        
+            Thread.sleep(4000);            
+            driver.switchTo().window(MainWindow);	
+            driver.close();
+        
+		
+		driver.close();
+	}
+}

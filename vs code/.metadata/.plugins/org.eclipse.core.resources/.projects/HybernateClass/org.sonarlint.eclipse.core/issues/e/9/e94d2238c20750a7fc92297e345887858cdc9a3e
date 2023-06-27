@@ -1,0 +1,18 @@
+
+k	java:S106Z"9Replace this use of System.out or System.err by a logger.(ö¬8¶Ù‚1HëYRMAJORZ
+CODE_SMELL
+‚
+java:S2095M"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ó¥ùëşÿÿÿÿ8÷ÄÃÙ‚1HìYRBLOCKERZBUG
+…	java:S100H"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷Ş«–ÿÿÿÿÿ8¶Ù‚1HíYRMINORZ
+CODE_SMELL
+‘
+java:S22930"YReplace the type specification in this constructor call with the diamond operator ("<>").(ï¥âùÿÿÿÿ8‡ø«Ù‚1HîYRMINORZ
+CODE_SMELL
+~	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šÑ’•ûÿÿÿÿHğYRMINORZ
+CODE_SMELL
+}
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¥ÅÚ8öò‰Ù‚1HñYRBLOCKERZBUG
+}
+java:S20952"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¡€Å”8‡ø«Ù‚1HòYRBLOCKERZBUG
+k	java:S106A"9Replace this use of System.out or System.err by a logger.(ö¬8‡ø«Ù‚1HóYRMAJORZ
+CODE_SMELL

@@ -1,0 +1,27 @@
+
+x	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ã©¤öH¡ZRMINORZ
+CODE_SMELL
+f
+java:S1161#":Add the "@Override" annotation above this method signature(‹¨¯¿H¢ZRMAJORZ
+CODE_SMELL
+„
+java:S1989%"PHandle the following exception that could be thrown by "getWriter": IOException.(ïô†úÿÿÿÿH¤ZRMINORZVULNERABILITY
+Y
+java:S1481%"(Remove this unused "out" local variable.(ïô†úÿÿÿÿH¥ZRMINORZ
+CODE_SMELL
+
+java:S1989)"[Handle the following exception that could be thrown by "parseFloat": NumberFormatException.(¦—µ×ûÿÿÿÿH§ZRMINORZVULNERABILITY
+i	java:S106."9Replace this use of System.out or System.err by a logger.(úõ–áùÿÿÿÿH¨ZRMAJORZ
+CODE_SMELL
+d	java:S1063"9Replace this use of System.out or System.err by a logger.(ÁÎ«äH©ZRMAJORZ
+CODE_SMELL
+i	java:S1066"9Replace this use of System.out or System.err by a logger.(¿­šşıÿÿÿÿHªZRMAJORZ
+CODE_SMELL
+‡
+java:S19898"SHandle the following exception that could be thrown by "sendRedirect": IOException.(®ş¡ÔøÿÿÿÿH«ZRMINORZVULNERABILITY
+l	java:S125:"<This block of commented-out lines of code should be removed.(Ú¹í‚øÿÿÿÿH¬ZRMAJORZ
+CODE_SMELL
+d	java:S106<"9Replace this use of System.out or System.err by a logger.(©ËÌ¯H­ZRMAJORZ
+CODE_SMELL
+‡
+java:S1989>"SHandle the following exception that could be thrown by "sendRedirect": IOException.(®ş¡ÔøÿÿÿÿH®ZRMINORZVULNERABILITY

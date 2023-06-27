@@ -1,0 +1,7 @@
+package com.SeleniumPractise;
+
+public class AmazonP {
+	public static void main(String[] args) throws InterruptedException{
+		
+	}
+}

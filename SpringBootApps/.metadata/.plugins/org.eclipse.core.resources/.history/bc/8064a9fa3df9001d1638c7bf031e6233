@@ -1,0 +1,21 @@
+
+
+server.port = 9078
+
+server.servlet.context-path=/JPA
+spring.application.name= SpringJpaApp
+
+
+spring.mvc.view.prefix=/WEB-INF/MyAppPages/
+spring.mvc.view.suffix=.jsp
+
+
+#Db Connection
+
+spring.datasource.url=jdbc:mysql://localhost:3306/ZaggleDb  
+spring.datasource.username=root  
+spring.datasource.password=Nitish@1813
+
+spring.jpa.hibernate.ddl-auto=update  
+
+

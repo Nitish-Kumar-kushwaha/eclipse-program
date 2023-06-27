@@ -1,0 +1,22 @@
+package com.loginTest.Controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+public class AppController {
+	
+	@GetMapping(value = "/register")
+	public ModelAndView register() {
+		ModelAndView m = new ModelAndView();
+		
+		m.setViewName("Register");
+		return m;
+	}
+	
+	public ModelAndView login() {
+		
+	}
+
+}

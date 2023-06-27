@@ -1,0 +1,25 @@
+package com.curdoperation;
+
+import java.sql.Connection;
+
+import com.Connection.DbConnection;
+import com.model.Student;
+
+public class StudentOperation {
+	Connection conObj = null;
+
+	public StudentOperation() {
+		
+		conObj = DbConnection.GetConnection();
+		
+		
+	}
+	
+	public String AddNewStudent(Student std) {
+		return"sucess";
+		
+	}
+	
+	
+
+}

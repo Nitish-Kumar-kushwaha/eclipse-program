@@ -1,0 +1,10 @@
+
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ÿ¿™ıÿÿÿÿ8©€„µ1HËRMAJORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÑçË‡HÌRMINORZ
+CODE_SMELL
+|
+java:S1128"IRemove this unused import 'org.openqa.selenium.support.ui.WebDriverWait'.(¥÷ó8çñšµ1HÍRMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(¢¿àÜøÿÿÿÿ8¡©ƒµ1HÏRMAJORZ
+CODE_SMELL

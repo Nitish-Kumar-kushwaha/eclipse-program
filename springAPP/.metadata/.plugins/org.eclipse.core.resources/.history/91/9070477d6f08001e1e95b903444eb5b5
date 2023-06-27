@@ -1,0 +1,33 @@
+package firstSpringApp.Dao;
+
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.orm.hibernate5.HibernateTemplate;
+import org.springframework.stereotype.Repository;
+
+import firstSpringApp.hibernate.connection.HibernateConfigure;
+import firstSpringApp.model.User;
+
+@Repository
+public class UserDao {
+	
+	private SessionFactory sessionFactory;
+	
+	
+	
+	public UserDao(SessionFactory sessionFactory) {
+		
+		sessionFactory = HibernateConfigure.getconnection();
+	}
+
+
+
+//	private HibernateTemplate hibernateTemplate;
+	
+	public int saveUser(User user) {
+		int id = (Integer)this.hibernateTemplate.save(user);
+		
+		return id;
+	}
+	
+}

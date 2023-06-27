@@ -1,0 +1,30 @@
+package com.FilePack;
+import java.io.*;
+import java.util.Scanner;
+
+public class FileWriting {
+
+	public static void main(String[] args) throws IOException{
+		// TODO Auto-generated method stub
+		
+		FileOutputStream fileOutputStream = new FileOutputStream("/home/nitish/Desktop/java-Eclipse /firstHelloWorld/src/com/demo/file.txt");
+		Scanner sc = new Scanner(System.in);
+		String str = sc.nextLine();
+		byte arr[] = str.getBytes();
+		
+		fileOutputStream.write(arr);
+		System.out.println("file created ");
+		fileOutputStream.close();
+		FileInputStream inputFile = new FileInputStream("/home/nitish/Desktop/java-Eclipse /firstHelloWorld/src/com/demo/file.txt");
+		int ch = inputFile.read();
+		
+		while(ch != -1) {
+			System.out.println((char)ch);
+			ch = inputFile.read();
+		}
+		sc.close();
+		
+
+	}
+
+}

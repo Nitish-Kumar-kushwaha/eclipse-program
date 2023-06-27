@@ -1,0 +1,5 @@
+package firstSpringApp.Dao;
+
+public class UserDao {
+
+}

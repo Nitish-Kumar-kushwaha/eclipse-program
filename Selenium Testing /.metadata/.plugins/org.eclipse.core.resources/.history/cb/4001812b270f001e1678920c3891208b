@@ -1,0 +1,66 @@
+package com.SeleniumPractise;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class FormAssignment {
+	public static void main(String[] args) throws InterruptedException{
+		
+		WebDriver driver = new ChromeDriver();	
+		
+        String baseUrl = "https://demo.automationtesting.in/Register.html";					
+        driver.get(baseUrl);
+        driver.manage().window().maximize();
+		Thread.sleep(2000);
+		System.out.println("window opened...");
+		
+		WebElement firstname =  driver.findElement(By.xpath("//*[@placeholder=\"First Name\"]"));
+		firstname.sendKeys("Nitish");
+		
+        WebElement lastName = driver.findElement(By.xpath("//*[@placeholder=\"Last Name\"]"));
+        lastName.sendKeys("Kushwaha");
+        System.out.println("names enterd");
+        Thread.sleep(1000);
+        
+        WebElement address = driver.findElement(By.xpath("//*[@ng-model=\"Adress\"]"));
+        address.sendKeys("IIM ROAD, LUCKNOW");
+        System.out.println("Address entered");
+        Thread.sleep(1000);
+        
+        WebElement email = driver.findElement(By.xpath("//*[@type=\"email\"]"));
+        email.sendKeys("nitish@gmail.com");
+        System.out.println("Email eneterd..!!!");
+        Thread.sleep(2000);
+        
+        WebElement phone = driver.findElement(By.xpath("//*[@ng-model=\"Phone\"]"));
+        phone.sendKeys("8429128085");
+        System.out.println("phone enterd....");
+        Thread.sleep(1000);
+        
+        WebElement male = driver.findElement(By.xpath("//*[@value=\"Male\"]"));
+        male.click();
+        System.out.println("male clicke...");
+        Thread.sleep(1000);
+        
+        WebElement cricket = driver.findElement(By.xpath("//*[@value=\"Cricket\"]"));
+        cricket.click();
+        
+        WebElement movies = driver.findElement(By.xpath("//*[@value=\"Movies\"]"));
+        movies.click();
+        
+        WebElement hockey = driver.findElement(By.xpath("//*[@value=\"Hockey\"]"));
+        hockey.click();
+        System.out.println("hobies selected.....!");
+        Thread.sleep(1000);
+        
+        WebElement language = driver.findElement(By.xpath("//*[@id=\"msdd\"]"));
+        Select drpCountry = new Select(language);
+		drpCountry.selectByVisibleText("ANTARCTICA");
+        
+		driver.close();
+	}
+
+}

@@ -1,0 +1,52 @@
+
+†
+java:S11921"RDefine a constant instead of duplicating this literal "Emp Not Found...." 3 times.(ƒåüôûÿÿÿÿHòRCRITICALZ
+CODE_SMELL
+‹
+java:S1192)"WDefine a constant instead of duplicating this literal "Enter Employee Number " 3 times.(¢’»şÿÿÿÿHöRCRITICALZ
+CODE_SMELL
+
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(Çµí‘HúRCRITICALZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(Û©ÉÊH†RMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(ë—ÊçH‡RMAJORZ
+CODE_SMELL
+U	java:S131""Add a default case to this switch.(ìÃŒüÿÿÿÿHˆRCRITICALZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(Í¦£H‰RMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(òêíøÿÿÿÿHŠRMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(Ì¯‰H‹RMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(œ¢í®HŒRMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(¼İÓµHRMAJORZ
+CODE_SMELL
+d	java:S106%"9Replace this use of System.out or System.err by a logger.(•ûı¨HRMAJORZ
+CODE_SMELL
+i	java:S106)"9Replace this use of System.out or System.err by a logger.(¢’»şÿÿÿÿHRMAJORZ
+CODE_SMELL
+d	java:S106."9Replace this use of System.out or System.err by a logger.(Ã¡ÊÈHRMAJORZ
+CODE_SMELL
+i	java:S1061"9Replace this use of System.out or System.err by a logger.(ƒåüôûÿÿÿÿH‘RMAJORZ
+CODE_SMELL
+i	java:S1064"9Replace this use of System.out or System.err by a logger.(¢’»şÿÿÿÿH’RMAJORZ
+CODE_SMELL
+i	java:S1069"9Replace this use of System.out or System.err by a logger.(…áÉíıÿÿÿÿH“RMAJORZ
+CODE_SMELL
+d	java:S106:"9Replace this use of System.out or System.err by a logger.(…ö”H”RMAJORZ
+CODE_SMELL
+i	java:S106="9Replace this use of System.out or System.err by a logger.(ûı¼óûÿÿÿÿH•RMAJORZ
+CODE_SMELL
+i	java:S106@"9Replace this use of System.out or System.err by a logger.(ƒåüôûÿÿÿÿH–RMAJORZ
+CODE_SMELL
+i	java:S106C"9Replace this use of System.out or System.err by a logger.(¢’»şÿÿÿÿH—RMAJORZ
+CODE_SMELL
+c	java:S106I"9Replace this use of System.out or System.err by a logger.(·ò½jH˜RMAJORZ
+CODE_SMELL
+i	java:S106L"9Replace this use of System.out or System.err by a logger.(ƒåüôûÿÿÿÿH™RMAJORZ
+CODE_SMELL
+d	java:S106O"9Replace this use of System.out or System.err by a logger.(–ì©…HšRMAJORZ
+CODE_SMELL

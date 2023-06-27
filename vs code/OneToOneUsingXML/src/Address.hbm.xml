@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<!-- private int adrsid;
+	private String doorno, location;
+	private Employee emp; -->
+
+<hibernate-mapping>
+	<class name="com.onetoone.model.Address" table="AddressInfo">
+		<id name="adrsid">
+		<generator class="increment"></generator>
+		</id>
+		<property name="doorno" column="DoorNo"/>
+		<property name="location" column="Location"/>
+		<one-to-one name="emp" />
+	</class>
+
+
+</hibernate-mapping>

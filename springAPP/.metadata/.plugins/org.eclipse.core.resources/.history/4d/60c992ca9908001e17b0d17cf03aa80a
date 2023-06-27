@@ -1,0 +1,23 @@
+package com.Services;
+
+import java.util.List;
+
+import com.DAO.ProductDao;
+import com.model.Products;
+
+public class ProductService {
+	private ProductDao proDao = new ProductDao();
+	
+	public String InsertProduct(Products pro) {
+		return this.proDao.saveProduct(pro);
+	}
+	
+	public List<Products> ShowProducts(){
+		return this.proDao.ShowAll();
+	}
+	
+	public Products SearchProduct(int id) {
+		return this.proDao.searchProduct(id);
+	}
+
+}

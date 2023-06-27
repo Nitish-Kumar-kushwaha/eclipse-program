@@ -1,0 +1,24 @@
+package Practise;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class MultipleWindows {
+	
+	WebDriver driver1;
+	
+	public void testOne()throws InterruptedException{
+		
+		System.out.println("Starting Test On Chrome Browser");
+		String baseUrl = "https://www.amazon.in/"; 
+		System.out.println("Launching Google Chrome browser"); 
+		
+		System.setProperty("webdriver.chrome.driver", "/home/nitish/Desktop/ChromeDriver/chromedriver");
+		driver1 = new ChromeDriver();
+		
+		
+		
+	}
+
+}

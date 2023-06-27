@@ -1,0 +1,25 @@
+package firstSpringApp.practise;
+
+import java.util.List;
+
+import firstSpringApp.model.User;
+import firstSpringApp.service.UserService;
+
+public class Practse {
+	public static void main(String[] args) {
+		UserService service = new UserService();
+		User u = new User();
+		u.setEmail("abnm@gmail.com");
+		u.setUserName("rashu");
+		u.setPassword("12345");
+		
+		service.createUser(u);
+		
+		List<User> list = service.showUser();
+		for(User x : list) {
+			System.out.println(x);
+		}
+		
+	}
+
+}

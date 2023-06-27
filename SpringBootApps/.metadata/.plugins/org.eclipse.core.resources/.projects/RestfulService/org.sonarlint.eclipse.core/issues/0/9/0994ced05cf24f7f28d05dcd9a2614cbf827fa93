@@ -1,0 +1,16 @@
+
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(€Ãß¼úÿÿÿÿHÃRMINORZ
+CODE_SMELL
+y	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Óâı°HÄRMINORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(’­€üÿÿÿÿHÅRMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(”¿€ HÆRMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(Êô¸€HÇRMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(éàÂ·ùÿÿÿÿHÈRMAJORZ
+CODE_SMELL
+w
+java:S1128"FRemove this unused import 'org.springframework.stereotype.Controller'.(øŠ—ÖùÿÿÿÿHÉRMINORZ
+CODE_SMELL

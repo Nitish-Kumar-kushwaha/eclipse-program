@@ -1,0 +1,12 @@
+
+`
+java:S37403"/Provide the parametrized type for this generic.(Žñ‰íýÿÿÿÿHöYRMAJORZ
+CODE_SMELL
+Š
+java:S22930"YReplace the type specification in this constructor call with the diamond operator ("<>").(ºäÖãùÿÿÿÿH÷YRMINORZ
+CODE_SMELL
+q
+java:S20952"EUse try-with-resources or close this "Session" in a "finally" clause.(´Ï‚‘ùÿÿÿÿHùYRBLOCKERZBUG
+^
+java:S18743"-Remove this use of "Query"; it is deprecated.(Žñ‰íýÿÿÿÿHúYRMINORZ
+CODE_SMELL

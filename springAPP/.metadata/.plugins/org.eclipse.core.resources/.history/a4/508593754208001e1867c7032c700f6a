@@ -1,0 +1,5 @@
+package firstSpringApp.controller;
+
+public class ContactController {
+
+}

@@ -1,0 +1,32 @@
+package com.Controller;
+
+import java.util.List;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.Services.ProductService;
+import com.model.Products;
+
+@Controller
+public class AppController {
+	
+	@GetMapping(value = "/")
+	public String home(Model m) {
+		return "index";
+	}
+	
+	public ModelAndView show(){
+		ModelAndView m = new ModelAndView();
+		
+		ProductService service = new ProductService();
+		List<Products> pros = service.ShowProducts();
+		m.addObject("products", pros);
+		
+		m.setViewName("show");
+		return m;
+	}
+
+}

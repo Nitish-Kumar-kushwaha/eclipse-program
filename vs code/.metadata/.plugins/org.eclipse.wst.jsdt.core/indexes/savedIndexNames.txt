@@ -1,0 +1,21 @@
+INDEX VERSION 1.4+/home/nitish/Desktop/java-Eclipse /vs code/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+361674307.index
+455407823.index
+1636661886.index
+2710363012.index
+1565340740.index
+986372243.index
+3297741779.index
+1974619489.index
+2317549097.index
+39094504.index
+1352699653.index
+2334984984.index
+3292816894.index
+2336479486.index
+1726638878.index
+3278139904.index
+3113315305.index
+4036805031.index
+2645993140.index
+373436525.index

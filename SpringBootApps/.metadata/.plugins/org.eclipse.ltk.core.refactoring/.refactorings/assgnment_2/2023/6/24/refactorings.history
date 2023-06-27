@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;assgnment_2/src/main/webapp/WEB-INF&apos; to &apos;META-INF&apos;" description="Rename resource &apos;WEB-INF&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/WEB-INF" name="META-INF" stamp="1686753502802" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;assgnment_2/src/main/webapp/META-INF&apos; to &apos;WEB-INF&apos;" description="Rename resource &apos;META-INF&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/META-INF" name="WEB-INF" stamp="1686758786904" updateReferences="true"/>
+</session>

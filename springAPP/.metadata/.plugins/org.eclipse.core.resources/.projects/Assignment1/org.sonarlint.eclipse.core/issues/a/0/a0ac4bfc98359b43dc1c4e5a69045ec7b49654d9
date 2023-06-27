@@ -1,0 +1,24 @@
+
+w
+java:S46841"@Replace this persistent entity with a simple POJO or DTO object.(Üâş¿øÿÿÿÿHÄRCRITICALZVULNERABILITY
+y
+java:S4684k"@Replace this persistent entity with a simple POJO or DTO object.(ƒØ¦ÿ8 „÷áŠ1H—RCRITICALZVULNERABILITY
+}
+java:S1192B"GDefine a constant instead of duplicating this literal "search" 3 times.(´Ôô‚8 „÷áŠ1H“RCRITICALZ
+CODE_SMELL
+d	java:S1067"9Replace this use of System.out or System.err by a logger.(«Ä•§HÅRMAJORZ
+CODE_SMELL
+k	java:S106s"9Replace this use of System.out or System.err by a logger.(ºîäÇ8 „÷áŠ1H™RMAJORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(çíÎÛHÂRMINORZ
+CODE_SMELL
+c	java:S1066"9Replace this use of System.out or System.err by a logger.(åìÙWHÃRMAJORZ
+CODE_SMELL
+k	java:S106m"9Replace this use of System.out or System.err by a logger.(ˆæõä8 „÷áŠ1H˜RMAJORZ
+CODE_SMELL
+i	java:S106 "9Replace this use of System.out or System.err by a logger.(‹çêüÿÿÿÿHÆRMAJORZ
+CODE_SMELL
+o
+java:S2441U">Make "Products" serializable or don't store it in the session.(‹ı¼†ÿÿÿÿÿ8††áŠ1H¿RMAJORZBUG
+k	java:S106v"9Replace this use of System.out or System.err by a logger.(—›Á8‚“øáŠ1HRMAJORZ
+CODE_SMELL

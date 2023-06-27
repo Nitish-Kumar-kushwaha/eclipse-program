@@ -1,0 +1,11 @@
+package com.Assignment1;
+
+import java.text.ParseException;
+
+public class LocatingWebPage  {
+	
+	public static void main(String[] args) throws ParseException, InterruptedException {
+		
+	}
+
+}

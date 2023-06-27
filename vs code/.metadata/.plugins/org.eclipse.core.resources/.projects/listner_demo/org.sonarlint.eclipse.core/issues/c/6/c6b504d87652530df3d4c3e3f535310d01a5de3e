@@ -1,0 +1,32 @@
+
+f
+java:S1161*":Add the "@Override" annotation above this method signature(Ä£ĞğHÿRMAJORZ
+CODE_SMELL
+k
+java:S11611":Add the "@Override" annotation above this method signature(íÙ¬ôùÿÿÿÿHRMAJORZ
+CODE_SMELL
+k	java:S106$"9Replace this use of System.out or System.err by a logger.(úúû8«Ö“Ôƒ1H‹RMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(–«„¼8«Ö“Ôƒ1HŠRMAJORZ
+CODE_SMELL
+k	java:S106+"9Replace this use of System.out or System.err by a logger.(¡»ğ8‡ù™Ôƒ1H‘RMAJORZ
+CODE_SMELL
+f
+java:S11618":Add the "@Override" annotation above this method signature(Á¿¹ÇHƒRMAJORZ
+CODE_SMELL
+f
+java:S1161":Add the "@Override" annotation above this method signature(äó›æHûRMAJORZ
+CODE_SMELL
+k
+java:S1161#":Add the "@Override" annotation above this method signature(¸ó¯³ùÿÿÿÿHıRMAJORZ
+CODE_SMELL
+k	java:S1062"9Replace this use of System.out or System.err by a logger.(ëœ–Ï8×›Ôƒ1H—RMAJORZ
+CODE_SMELL
+
+java:S1192+"WDefine a constant instead of duplicating this literal "From Listener key with" 3 times.(¡»ğ8–ÁŸÔƒ1H¢RCRITICALZ
+CODE_SMELL
+ƒ
+java:S1192+"MDefine a constant instead of duplicating this literal "and Value is" 3 times.(¡»ğ8–ÁŸÔƒ1H¦RCRITICALZ
+CODE_SMELL
+p	java:S1069"9Replace this use of System.out or System.err by a logger.(‰çÇÒıÿÿÿÿ8–ÁŸÔƒ1HªRMAJORZ
+CODE_SMELL

@@ -1,0 +1,27 @@
+package com.TestCode;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+import com.TestingPractise.Calculation;
+
+public class TestLogic {
+	Calculation c = null;
+	
+	@Test
+	public void testPositiveAddition() {
+		c = new Calculation();
+		int actual = c.Addition(5, 11);
+		int expected = 16;
+		assertEquals(expected, actual);
+	}
+	
+	@Test
+	public void testNegativeAdditon() {
+		c= new Calculation();
+		int actual = c.Addition(-5, 5);
+		int expected = -0/1;
+		assertEquals(expected, actual);
+	}
+}

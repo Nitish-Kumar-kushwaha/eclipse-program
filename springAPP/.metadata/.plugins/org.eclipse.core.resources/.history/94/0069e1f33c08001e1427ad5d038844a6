@@ -1,0 +1,28 @@
+package firstSpringApp.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+public class AppController {
+	
+	@GetMapping(value = "/")
+	public String home( Model m) {
+		System.out.println("this is home");
+		m.addAttribute("msg", "nitish is here");
+		return "index";
+	}
+	
+	@GetMapping(value = "about/")
+	public ModelAndView about( ) {
+		ModelAndView m = new ModelAndView();
+		
+		m.addObject("usn" , "2GI19CS085");
+		m.setViewName("about");
+		
+		return m;
+	}
+
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.testPack.model.PhoneBook" table="PhoneBookInfo">
+	
+		<id name="cid" >
+			<generator class="assigned"></generator>
+		</id>	
+		<property name="cname" column = "customerName"/>
+		<property name="email" />
+		<property name="phone"/>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,21 @@
+
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(’ÝÙýþÿÿÿÿHâRMINORZ
+CODE_SMELL
+€	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°‡É8¾‚Ó¹„1HãRMINORZ
+CODE_SMELL
+€	java:S100>"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü˜Î´8Ó°îÌŠ1HäRMINORZ
+CODE_SMELL
+€	java:S1001"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íÔÊö8Ó°îÌŠ1HåRMINORZ
+CODE_SMELL
+…	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼†æåüÿÿÿÿ8ÓŸî¸„1HæRMINORZ
+CODE_SMELL
+Š
+java:S1128"RRemove this unused import 'org.springframework.web.bind.annotation.RequestMethod'.(Ê™Ðÿûÿÿÿÿ8Ó°îÌŠ1HçRMINORZ
+CODE_SMELL
+€	java:S100""NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŽøÝ‹8Ó°îÌŠ1HéRMINORZ
+CODE_SMELL
+…	java:S100*"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì×Ìžýÿÿÿÿ8Ó°îÌŠ1HêRMINORZ
+CODE_SMELL
+†
+java:S1128"SRemove this unused import 'org.springframework.web.bind.annotation.RequestMapping'.(ö»¿ë8Ó°îÌŠ1HëRMINORZ
+CODE_SMELL

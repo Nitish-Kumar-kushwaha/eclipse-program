@@ -1,0 +1,30 @@
+
+…	java:S100$"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä“ŠŠøÿÿÿÿ8Ï¬¥‚1H½YRMINORZ
+CODE_SMELL
+ƒ	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…¯á˜8Ï¬¥‚1H¾YRMINORZ
+CODE_SMELL
+…	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û•ÿ¥üÿÿÿÿ8Ï¬¥‚1H¿YRMINORZ
+CODE_SMELL
+p	java:S106-"9Replace this use of System.out or System.err by a logger.(èı´€şÿÿÿÿ8Ï¬¥‚1HÀYRMAJORZ
+CODE_SMELL
+p	java:S106."9Replace this use of System.out or System.err by a logger.(Ëµ‘ºùÿÿÿÿ8Ï¬¥‚1HÁYRMAJORZ
+CODE_SMELL
+p	java:S1060"9Replace this use of System.out or System.err by a logger.(÷Š‡Òøÿÿÿÿ8Ï¬¥‚1HÂYRMAJORZ
+CODE_SMELL
+Œ	java:S116
+"ZRename this field "cource_and_cost" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏıµŸ8Ï¬¥‚1HÃYRMINORZ
+CODE_SMELL
+”	java:S116	"]Rename this field "cource_an_Faculity" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ñÉãşÿÿÿÿ8Ï¬¥‚1HÄYRMINORZ
+CODE_SMELL
+€	java:S100+"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±ÃüÖ8Ï¬¥‚1HÅYRMINORZ
+CODE_SMELL
+€	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…¯á˜8Ï¬¥‚1HÆYRMINORZ
+CODE_SMELL
+ˆ	java:S117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í¡ô¿ùÿÿÿÿ8Ï¬¥‚1HÇYRMINORZ
+CODE_SMELL
+p	java:S106,"9Replace this use of System.out or System.err by a logger.(ÙÓ¥°ûÿÿÿÿ8Ï¬¥‚1HÈYRMAJORZ
+CODE_SMELL
+p	java:S106/"9Replace this use of System.out or System.err by a logger.(í£éÜûÿÿÿÿ8Ï¬¥‚1HÉYRMAJORZ
+CODE_SMELL
+…	java:S100'"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í¡ô¿ùÿÿÿÿ8Ï¬¥‚1HÊYRMINORZ
+CODE_SMELL

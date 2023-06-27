@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd" >
+	
+	<bean id="empObj" class="com.beans.Employee">
+	<constructor-arg  name="ename" value=" nitish" />
+	<constructor-arg name="job" value="Frontend Developer" />
+	<constructor-arg name="salary" value="140000.00" />
+	
+	
+	</bean>
+
+</beans>

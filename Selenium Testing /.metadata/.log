@@ -1,0 +1,430 @@
+!SESSION 2023-06-23 10:42:20.841 -----------------------------------------------
+eclipse.buildId=4.28.0.20230608-1200
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+This is a continuation of log file /home/nitish/Desktop/java-Eclipse /Selenium Testing /.metadata/.bak_0.log
+Created Time: 2023-06-23 10:50:33.109
+
+!ENTRY org.testng.eclipse 1 0 2023-06-23 10:50:33.110
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /home/nitish/eclipse/configuration/org.eclipse.osgi/1600/0/.cp/lib/testng-remote.jar /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/bin /home/nitish/Downloads/Selenium jars/byte-buddy-1.8.15.jar /home/nitish/Downloads/Selenium jars/client-combined-3.141.59.jar /home/nitish/Downloads/Selenium jars/client-combined-3.141.59-sources.jar /home/nitish/Downloads/Selenium jars/commons-exec-1.3.jar /home/nitish/Downloads/Selenium jars/guava-25.0-jre.jar /home/nitish/Downloads/Selenium jars/okhttp-3.11.0.jar /home/nitish/Downloads/Selenium jars/okio-1.14.0.jar /home/nitish/Downloads/Selenium jars/org.apache.commons.io.jar /home/nitish/Downloads/Selenium jars/selenium-server-standalone-3.141.59.jar /home/nitish/eclipse/plugins/org.testng_7.8.0.r202306071539.jar /home/nitish/eclipse/plugins/com.beust.jcommander_1.82.0.jar /home/nitish/eclipse/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /home/nitish/eclipse/plugins/org.yaml.snakeyaml_1.33.0.jar /home/nitish/eclipse/plugins/org.webjars.jquery_3.6.1.jar /home/nitish/Downloads/apache-log4j-1.2.15.jar /home/nitish/Downloads/slf4j-api-1.5.6.jar /home/nitish/Downloads/slf4j-log4j12-1.5.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 33497 -protocol json -d /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/test-output /tmp/testng-eclipse-892981676/testng-customsuite.xml
+java -ea -classpath /home/nitish/eclipse/configuration/org.eclipse.osgi/1600/0/.cp/lib/testng-remote.jar:/home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/bin:/home/nitish/Downloads/Selenium jars/byte-buddy-1.8.15.jar:/home/nitish/Downloads/Selenium jars/client-combined-3.141.59.jar:/home/nitish/Downloads/Selenium jars/client-combined-3.141.59-sources.jar:/home/nitish/Downloads/Selenium jars/commons-exec-1.3.jar:/home/nitish/Downloads/Selenium jars/guava-25.0-jre.jar:/home/nitish/Downloads/Selenium jars/okhttp-3.11.0.jar:/home/nitish/Downloads/Selenium jars/okio-1.14.0.jar:/home/nitish/Downloads/Selenium jars/org.apache.commons.io.jar:/home/nitish/Downloads/Selenium jars/selenium-server-standalone-3.141.59.jar:/home/nitish/eclipse/plugins/org.testng_7.8.0.r202306071539.jar:/home/nitish/eclipse/plugins/com.beust.jcommander_1.82.0.jar:/home/nitish/eclipse/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/home/nitish/eclipse/plugins/org.yaml.snakeyaml_1.33.0.jar:/home/nitish/eclipse/plugins/org.webjars.jquery_3.6.1.jar:/home/nitish/Downloads/apache-log4j-1.2.15.jar:/home/nitish/Downloads/slf4j-api-1.5.6.jar:/home/nitish/Downloads/slf4j-log4j12-1.5.6.jar org.testng.remote.RemoteTestNG -serport 33497 -protocol json -d /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/test-output /tmp/testng-eclipse-892981676/testng-customsuite.xml
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-23 10:53:28.615
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-23 10:53:28.616
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-23 10:53:28.617
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-23 10:53:28.617
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-23 10:53:28.624
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-23 10:53:28.627
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.testng.eclipse 1 0 2023-06-23 11:00:13.650
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /home/nitish/eclipse/configuration/org.eclipse.osgi/1600/0/.cp/lib/testng-remote.jar /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/bin /home/nitish/Downloads/Selenium jars/byte-buddy-1.8.15.jar /home/nitish/Downloads/Selenium jars/client-combined-3.141.59.jar /home/nitish/Downloads/Selenium jars/client-combined-3.141.59-sources.jar /home/nitish/Downloads/Selenium jars/commons-exec-1.3.jar /home/nitish/Downloads/Selenium jars/guava-25.0-jre.jar /home/nitish/Downloads/Selenium jars/okhttp-3.11.0.jar /home/nitish/Downloads/Selenium jars/okio-1.14.0.jar /home/nitish/Downloads/Selenium jars/org.apache.commons.io.jar /home/nitish/Downloads/Selenium jars/selenium-server-standalone-3.141.59.jar /home/nitish/eclipse/plugins/org.testng_7.8.0.r202306071539.jar /home/nitish/eclipse/plugins/com.beust.jcommander_1.82.0.jar /home/nitish/eclipse/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /home/nitish/eclipse/plugins/org.yaml.snakeyaml_1.33.0.jar /home/nitish/eclipse/plugins/org.webjars.jquery_3.6.1.jar /home/nitish/Downloads/apache-log4j-1.2.15.jar /home/nitish/Downloads/slf4j-api-1.5.6.jar /home/nitish/Downloads/slf4j-log4j12-1.5.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 43167 -protocol json -d /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/test-output /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/testng.xml
+java -ea -classpath /home/nitish/eclipse/configuration/org.eclipse.osgi/1600/0/.cp/lib/testng-remote.jar:/home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/bin:/home/nitish/Downloads/Selenium jars/byte-buddy-1.8.15.jar:/home/nitish/Downloads/Selenium jars/client-combined-3.141.59.jar:/home/nitish/Downloads/Selenium jars/client-combined-3.141.59-sources.jar:/home/nitish/Downloads/Selenium jars/commons-exec-1.3.jar:/home/nitish/Downloads/Selenium jars/guava-25.0-jre.jar:/home/nitish/Downloads/Selenium jars/okhttp-3.11.0.jar:/home/nitish/Downloads/Selenium jars/okio-1.14.0.jar:/home/nitish/Downloads/Selenium jars/org.apache.commons.io.jar:/home/nitish/Downloads/Selenium jars/selenium-server-standalone-3.141.59.jar:/home/nitish/eclipse/plugins/org.testng_7.8.0.r202306071539.jar:/home/nitish/eclipse/plugins/com.beust.jcommander_1.82.0.jar:/home/nitish/eclipse/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/home/nitish/eclipse/plugins/org.yaml.snakeyaml_1.33.0.jar:/home/nitish/eclipse/plugins/org.webjars.jquery_3.6.1.jar:/home/nitish/Downloads/apache-log4j-1.2.15.jar:/home/nitish/Downloads/slf4j-api-1.5.6.jar:/home/nitish/Downloads/slf4j-log4j12-1.5.6.jar org.testng.remote.RemoteTestNG -serport 43167 -protocol json -d /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/test-output /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2023-06-23 11:01:31.466
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /home/nitish/eclipse/configuration/org.eclipse.osgi/1600/0/.cp/lib/testng-remote.jar /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/bin /home/nitish/Downloads/Selenium jars/byte-buddy-1.8.15.jar /home/nitish/Downloads/Selenium jars/client-combined-3.141.59.jar /home/nitish/Downloads/Selenium jars/client-combined-3.141.59-sources.jar /home/nitish/Downloads/Selenium jars/commons-exec-1.3.jar /home/nitish/Downloads/Selenium jars/guava-25.0-jre.jar /home/nitish/Downloads/Selenium jars/okhttp-3.11.0.jar /home/nitish/Downloads/Selenium jars/okio-1.14.0.jar /home/nitish/Downloads/Selenium jars/org.apache.commons.io.jar /home/nitish/Downloads/Selenium jars/selenium-server-standalone-3.141.59.jar /home/nitish/eclipse/plugins/org.testng_7.8.0.r202306071539.jar /home/nitish/eclipse/plugins/com.beust.jcommander_1.82.0.jar /home/nitish/eclipse/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /home/nitish/eclipse/plugins/org.yaml.snakeyaml_1.33.0.jar /home/nitish/eclipse/plugins/org.webjars.jquery_3.6.1.jar /home/nitish/Downloads/apache-log4j-1.2.15.jar /home/nitish/Downloads/slf4j-api-1.5.6.jar /home/nitish/Downloads/slf4j-log4j12-1.5.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 37445 -protocol json -d /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/test-output /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/testng.xml
+java -ea -classpath /home/nitish/eclipse/configuration/org.eclipse.osgi/1600/0/.cp/lib/testng-remote.jar:/home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/bin:/home/nitish/Downloads/Selenium jars/byte-buddy-1.8.15.jar:/home/nitish/Downloads/Selenium jars/client-combined-3.141.59.jar:/home/nitish/Downloads/Selenium jars/client-combined-3.141.59-sources.jar:/home/nitish/Downloads/Selenium jars/commons-exec-1.3.jar:/home/nitish/Downloads/Selenium jars/guava-25.0-jre.jar:/home/nitish/Downloads/Selenium jars/okhttp-3.11.0.jar:/home/nitish/Downloads/Selenium jars/okio-1.14.0.jar:/home/nitish/Downloads/Selenium jars/org.apache.commons.io.jar:/home/nitish/Downloads/Selenium jars/selenium-server-standalone-3.141.59.jar:/home/nitish/eclipse/plugins/org.testng_7.8.0.r202306071539.jar:/home/nitish/eclipse/plugins/com.beust.jcommander_1.82.0.jar:/home/nitish/eclipse/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/home/nitish/eclipse/plugins/org.yaml.snakeyaml_1.33.0.jar:/home/nitish/eclipse/plugins/org.webjars.jquery_3.6.1.jar:/home/nitish/Downloads/apache-log4j-1.2.15.jar:/home/nitish/Downloads/slf4j-api-1.5.6.jar:/home/nitish/Downloads/slf4j-log4j12-1.5.6.jar org.testng.remote.RemoteTestNG -serport 37445 -protocol json -d /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/test-output /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/testng.xml
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2023-06-23 11:03:30.570
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.jboss.org/jbosstools/updates/requirements/webtools/3.2.5-20110915223420/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:405)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:388)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:279)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:520)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:448)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:231)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:520)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:78)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2023-06-23 11:03:30.572
+!MESSAGE No repository found at http://download.jboss.org/jbosstools/updates/requirements/webtools/3.2.5-20110915223420/.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-06-23 11:04:13.717
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/mystilleef/eclipse4-smartsave-updatesite/master/com.laboki.eclipse.updatesite.smartsave/content.jar
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2023-06-23 11:04:27.368
+!MESSAGE No repository found at http://dl.bintray.com/testng-team/testng-p2-release/.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2023-06-23 11:04:54.850
+!MESSAGE HTTP Server 'Service Unavailable': https://repository.sonatype.org/content/repositories/forge-sites/m2e-extras/0.14.0/N/0.14.0.201107060316/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpComponents connection error response code 503.
+	at org.eclipse.ecf.provider.filetransfer.httpclient5.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:281)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2023-06-23 11:04:54.850
+!MESSAGE HttpComponents connection error response code 503.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2023-06-23 11:05:13.556
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2023-06-23 11:05:35.687
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.jboss.org/jbosstools/updates/requirements/webtools/3.3.2-20120210195245/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:405)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:388)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:279)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:520)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at jdk.internal.reflect.GeneratedMethodAccessor79.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:448)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:231)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:520)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at jdk.internal.reflect.GeneratedMethodAccessor79.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:448)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:231)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:520)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:78)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2023-06-23 11:05:35.688
+!MESSAGE No repository found at http://download.jboss.org/jbosstools/updates/requirements/webtools/3.3.2-20120210195245/.
+
+!ENTRY org.testng.eclipse 1 0 2023-06-23 11:07:11.080
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /home/nitish/eclipse/configuration/org.eclipse.osgi/1600/0/.cp/lib/testng-remote.jar /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/bin /home/nitish/Downloads/Selenium jars/byte-buddy-1.8.15.jar /home/nitish/Downloads/Selenium jars/client-combined-3.141.59.jar /home/nitish/Downloads/Selenium jars/client-combined-3.141.59-sources.jar /home/nitish/Downloads/Selenium jars/commons-exec-1.3.jar /home/nitish/Downloads/Selenium jars/guava-25.0-jre.jar /home/nitish/Downloads/Selenium jars/okhttp-3.11.0.jar /home/nitish/Downloads/Selenium jars/okio-1.14.0.jar /home/nitish/Downloads/Selenium jars/org.apache.commons.io.jar /home/nitish/Downloads/Selenium jars/selenium-server-standalone-3.141.59.jar /home/nitish/eclipse/plugins/org.testng_7.8.0.r202306071539.jar /home/nitish/eclipse/plugins/com.beust.jcommander_1.82.0.jar /home/nitish/eclipse/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /home/nitish/eclipse/plugins/org.yaml.snakeyaml_1.33.0.jar /home/nitish/eclipse/plugins/org.webjars.jquery_3.6.1.jar /home/nitish/Downloads/apache-log4j-1.2.15.jar /home/nitish/Downloads/slf4j-api-1.5.6.jar /home/nitish/Downloads/slf4j-log4j12-1.5.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 45301 -protocol json -d /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/test-output /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/testng.xml
+java -ea -classpath /home/nitish/eclipse/configuration/org.eclipse.osgi/1600/0/.cp/lib/testng-remote.jar:/home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/bin:/home/nitish/Downloads/Selenium jars/byte-buddy-1.8.15.jar:/home/nitish/Downloads/Selenium jars/client-combined-3.141.59.jar:/home/nitish/Downloads/Selenium jars/client-combined-3.141.59-sources.jar:/home/nitish/Downloads/Selenium jars/commons-exec-1.3.jar:/home/nitish/Downloads/Selenium jars/guava-25.0-jre.jar:/home/nitish/Downloads/Selenium jars/okhttp-3.11.0.jar:/home/nitish/Downloads/Selenium jars/okio-1.14.0.jar:/home/nitish/Downloads/Selenium jars/org.apache.commons.io.jar:/home/nitish/Downloads/Selenium jars/selenium-server-standalone-3.141.59.jar:/home/nitish/eclipse/plugins/org.testng_7.8.0.r202306071539.jar:/home/nitish/eclipse/plugins/com.beust.jcommander_1.82.0.jar:/home/nitish/eclipse/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/home/nitish/eclipse/plugins/org.yaml.snakeyaml_1.33.0.jar:/home/nitish/eclipse/plugins/org.webjars.jquery_3.6.1.jar:/home/nitish/Downloads/apache-log4j-1.2.15.jar:/home/nitish/Downloads/slf4j-api-1.5.6.jar:/home/nitish/Downloads/slf4j-log4j12-1.5.6.jar org.testng.remote.RemoteTestNG -serport 45301 -protocol json -d /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/test-output /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2023-06-23 11:12:56.456
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /home/nitish/eclipse/configuration/org.eclipse.osgi/1600/0/.cp/lib/testng-remote.jar /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/bin /home/nitish/Downloads/Selenium jars/byte-buddy-1.8.15.jar /home/nitish/Downloads/Selenium jars/client-combined-3.141.59.jar /home/nitish/Downloads/Selenium jars/client-combined-3.141.59-sources.jar /home/nitish/Downloads/Selenium jars/commons-exec-1.3.jar /home/nitish/Downloads/Selenium jars/guava-25.0-jre.jar /home/nitish/Downloads/Selenium jars/okhttp-3.11.0.jar /home/nitish/Downloads/Selenium jars/okio-1.14.0.jar /home/nitish/Downloads/Selenium jars/org.apache.commons.io.jar /home/nitish/Downloads/Selenium jars/selenium-server-standalone-3.141.59.jar /home/nitish/eclipse/plugins/org.testng_7.8.0.r202306071539.jar /home/nitish/eclipse/plugins/com.beust.jcommander_1.82.0.jar /home/nitish/eclipse/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /home/nitish/eclipse/plugins/org.yaml.snakeyaml_1.33.0.jar /home/nitish/eclipse/plugins/org.webjars.jquery_3.6.1.jar /home/nitish/Downloads/apache-log4j-1.2.15.jar /home/nitish/Downloads/slf4j-api-1.5.6.jar /home/nitish/Downloads/slf4j-log4j12-1.5.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 38095 -protocol json -d /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/test-output /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/testng.xml
+java -ea -classpath /home/nitish/eclipse/configuration/org.eclipse.osgi/1600/0/.cp/lib/testng-remote.jar:/home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/bin:/home/nitish/Downloads/Selenium jars/byte-buddy-1.8.15.jar:/home/nitish/Downloads/Selenium jars/client-combined-3.141.59.jar:/home/nitish/Downloads/Selenium jars/client-combined-3.141.59-sources.jar:/home/nitish/Downloads/Selenium jars/commons-exec-1.3.jar:/home/nitish/Downloads/Selenium jars/guava-25.0-jre.jar:/home/nitish/Downloads/Selenium jars/okhttp-3.11.0.jar:/home/nitish/Downloads/Selenium jars/okio-1.14.0.jar:/home/nitish/Downloads/Selenium jars/org.apache.commons.io.jar:/home/nitish/Downloads/Selenium jars/selenium-server-standalone-3.141.59.jar:/home/nitish/eclipse/plugins/org.testng_7.8.0.r202306071539.jar:/home/nitish/eclipse/plugins/com.beust.jcommander_1.82.0.jar:/home/nitish/eclipse/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/home/nitish/eclipse/plugins/org.yaml.snakeyaml_1.33.0.jar:/home/nitish/eclipse/plugins/org.webjars.jquery_3.6.1.jar:/home/nitish/Downloads/apache-log4j-1.2.15.jar:/home/nitish/Downloads/slf4j-api-1.5.6.jar:/home/nitish/Downloads/slf4j-log4j12-1.5.6.jar org.testng.remote.RemoteTestNG -serport 38095 -protocol json -d /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/test-output /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2023-06-23 11:15:10.678
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /home/nitish/eclipse/configuration/org.eclipse.osgi/1600/0/.cp/lib/testng-remote.jar /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/bin /home/nitish/Downloads/Selenium jars/byte-buddy-1.8.15.jar /home/nitish/Downloads/Selenium jars/client-combined-3.141.59.jar /home/nitish/Downloads/Selenium jars/client-combined-3.141.59-sources.jar /home/nitish/Downloads/Selenium jars/commons-exec-1.3.jar /home/nitish/Downloads/Selenium jars/guava-25.0-jre.jar /home/nitish/Downloads/Selenium jars/okhttp-3.11.0.jar /home/nitish/Downloads/Selenium jars/okio-1.14.0.jar /home/nitish/Downloads/Selenium jars/org.apache.commons.io.jar /home/nitish/Downloads/Selenium jars/selenium-server-standalone-3.141.59.jar /home/nitish/eclipse/plugins/org.testng_7.8.0.r202306071539.jar /home/nitish/eclipse/plugins/com.beust.jcommander_1.82.0.jar /home/nitish/eclipse/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /home/nitish/eclipse/plugins/org.yaml.snakeyaml_1.33.0.jar /home/nitish/eclipse/plugins/org.webjars.jquery_3.6.1.jar /home/nitish/Downloads/apache-log4j-1.2.15.jar /home/nitish/Downloads/slf4j-api-1.5.6.jar /home/nitish/Downloads/slf4j-log4j12-1.5.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 35827 -protocol json -d /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/test-output /tmp/testng-eclipse-989038609/testng-customsuite.xml
+java -ea -classpath /home/nitish/eclipse/configuration/org.eclipse.osgi/1600/0/.cp/lib/testng-remote.jar:/home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/bin:/home/nitish/Downloads/Selenium jars/byte-buddy-1.8.15.jar:/home/nitish/Downloads/Selenium jars/client-combined-3.141.59.jar:/home/nitish/Downloads/Selenium jars/client-combined-3.141.59-sources.jar:/home/nitish/Downloads/Selenium jars/commons-exec-1.3.jar:/home/nitish/Downloads/Selenium jars/guava-25.0-jre.jar:/home/nitish/Downloads/Selenium jars/okhttp-3.11.0.jar:/home/nitish/Downloads/Selenium jars/okio-1.14.0.jar:/home/nitish/Downloads/Selenium jars/org.apache.commons.io.jar:/home/nitish/Downloads/Selenium jars/selenium-server-standalone-3.141.59.jar:/home/nitish/eclipse/plugins/org.testng_7.8.0.r202306071539.jar:/home/nitish/eclipse/plugins/com.beust.jcommander_1.82.0.jar:/home/nitish/eclipse/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/home/nitish/eclipse/plugins/org.yaml.snakeyaml_1.33.0.jar:/home/nitish/eclipse/plugins/org.webjars.jquery_3.6.1.jar:/home/nitish/Downloads/apache-log4j-1.2.15.jar:/home/nitish/Downloads/slf4j-api-1.5.6.jar:/home/nitish/Downloads/slf4j-log4j12-1.5.6.jar org.testng.remote.RemoteTestNG -serport 35827 -protocol json -d /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/test-output /tmp/testng-eclipse-989038609/testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2023-06-23 11:15:29.898
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /home/nitish/eclipse/configuration/org.eclipse.osgi/1600/0/.cp/lib/testng-remote.jar /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/bin /home/nitish/Downloads/Selenium jars/byte-buddy-1.8.15.jar /home/nitish/Downloads/Selenium jars/client-combined-3.141.59.jar /home/nitish/Downloads/Selenium jars/client-combined-3.141.59-sources.jar /home/nitish/Downloads/Selenium jars/commons-exec-1.3.jar /home/nitish/Downloads/Selenium jars/guava-25.0-jre.jar /home/nitish/Downloads/Selenium jars/okhttp-3.11.0.jar /home/nitish/Downloads/Selenium jars/okio-1.14.0.jar /home/nitish/Downloads/Selenium jars/org.apache.commons.io.jar /home/nitish/Downloads/Selenium jars/selenium-server-standalone-3.141.59.jar /home/nitish/eclipse/plugins/org.testng_7.8.0.r202306071539.jar /home/nitish/eclipse/plugins/com.beust.jcommander_1.82.0.jar /home/nitish/eclipse/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /home/nitish/eclipse/plugins/org.yaml.snakeyaml_1.33.0.jar /home/nitish/eclipse/plugins/org.webjars.jquery_3.6.1.jar /home/nitish/Downloads/apache-log4j-1.2.15.jar /home/nitish/Downloads/slf4j-api-1.5.6.jar /home/nitish/Downloads/slf4j-log4j12-1.5.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 46299 -protocol json -d /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/test-output /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/testng.xml
+java -ea -classpath /home/nitish/eclipse/configuration/org.eclipse.osgi/1600/0/.cp/lib/testng-remote.jar:/home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/bin:/home/nitish/Downloads/Selenium jars/byte-buddy-1.8.15.jar:/home/nitish/Downloads/Selenium jars/client-combined-3.141.59.jar:/home/nitish/Downloads/Selenium jars/client-combined-3.141.59-sources.jar:/home/nitish/Downloads/Selenium jars/commons-exec-1.3.jar:/home/nitish/Downloads/Selenium jars/guava-25.0-jre.jar:/home/nitish/Downloads/Selenium jars/okhttp-3.11.0.jar:/home/nitish/Downloads/Selenium jars/okio-1.14.0.jar:/home/nitish/Downloads/Selenium jars/org.apache.commons.io.jar:/home/nitish/Downloads/Selenium jars/selenium-server-standalone-3.141.59.jar:/home/nitish/eclipse/plugins/org.testng_7.8.0.r202306071539.jar:/home/nitish/eclipse/plugins/com.beust.jcommander_1.82.0.jar:/home/nitish/eclipse/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/home/nitish/eclipse/plugins/org.yaml.snakeyaml_1.33.0.jar:/home/nitish/eclipse/plugins/org.webjars.jquery_3.6.1.jar:/home/nitish/Downloads/apache-log4j-1.2.15.jar:/home/nitish/Downloads/slf4j-api-1.5.6.jar:/home/nitish/Downloads/slf4j-log4j12-1.5.6.jar org.testng.remote.RemoteTestNG -serport 46299 -protocol json -d /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/test-output /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2023-06-23 11:16:55.057
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /home/nitish/eclipse/configuration/org.eclipse.osgi/1600/0/.cp/lib/testng-remote.jar /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/bin /home/nitish/Downloads/Selenium jars/byte-buddy-1.8.15.jar /home/nitish/Downloads/Selenium jars/client-combined-3.141.59.jar /home/nitish/Downloads/Selenium jars/client-combined-3.141.59-sources.jar /home/nitish/Downloads/Selenium jars/commons-exec-1.3.jar /home/nitish/Downloads/Selenium jars/guava-25.0-jre.jar /home/nitish/Downloads/Selenium jars/okhttp-3.11.0.jar /home/nitish/Downloads/Selenium jars/okio-1.14.0.jar /home/nitish/Downloads/Selenium jars/org.apache.commons.io.jar /home/nitish/Downloads/Selenium jars/selenium-server-standalone-3.141.59.jar /home/nitish/eclipse/plugins/org.testng_7.8.0.r202306071539.jar /home/nitish/eclipse/plugins/com.beust.jcommander_1.82.0.jar /home/nitish/eclipse/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /home/nitish/eclipse/plugins/org.yaml.snakeyaml_1.33.0.jar /home/nitish/eclipse/plugins/org.webjars.jquery_3.6.1.jar /home/nitish/Downloads/apache-log4j-1.2.15.jar /home/nitish/Downloads/slf4j-api-1.5.6.jar /home/nitish/Downloads/slf4j-log4j12-1.5.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 41461 -protocol json -d /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/test-output /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/testng.xml
+java -ea -classpath /home/nitish/eclipse/configuration/org.eclipse.osgi/1600/0/.cp/lib/testng-remote.jar:/home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/bin:/home/nitish/Downloads/Selenium jars/byte-buddy-1.8.15.jar:/home/nitish/Downloads/Selenium jars/client-combined-3.141.59.jar:/home/nitish/Downloads/Selenium jars/client-combined-3.141.59-sources.jar:/home/nitish/Downloads/Selenium jars/commons-exec-1.3.jar:/home/nitish/Downloads/Selenium jars/guava-25.0-jre.jar:/home/nitish/Downloads/Selenium jars/okhttp-3.11.0.jar:/home/nitish/Downloads/Selenium jars/okio-1.14.0.jar:/home/nitish/Downloads/Selenium jars/org.apache.commons.io.jar:/home/nitish/Downloads/Selenium jars/selenium-server-standalone-3.141.59.jar:/home/nitish/eclipse/plugins/org.testng_7.8.0.r202306071539.jar:/home/nitish/eclipse/plugins/com.beust.jcommander_1.82.0.jar:/home/nitish/eclipse/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/home/nitish/eclipse/plugins/org.yaml.snakeyaml_1.33.0.jar:/home/nitish/eclipse/plugins/org.webjars.jquery_3.6.1.jar:/home/nitish/Downloads/apache-log4j-1.2.15.jar:/home/nitish/Downloads/slf4j-api-1.5.6.jar:/home/nitish/Downloads/slf4j-log4j12-1.5.6.jar org.testng.remote.RemoteTestNG -serport 41461 -protocol json -d /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/test-output /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2023-06-23 11:21:48.476
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /home/nitish/eclipse/configuration/org.eclipse.osgi/1600/0/.cp/lib/testng-remote.jar /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/bin /home/nitish/Downloads/Selenium jars/byte-buddy-1.8.15.jar /home/nitish/Downloads/Selenium jars/client-combined-3.141.59.jar /home/nitish/Downloads/Selenium jars/client-combined-3.141.59-sources.jar /home/nitish/Downloads/Selenium jars/commons-exec-1.3.jar /home/nitish/Downloads/Selenium jars/guava-25.0-jre.jar /home/nitish/Downloads/Selenium jars/okhttp-3.11.0.jar /home/nitish/Downloads/Selenium jars/okio-1.14.0.jar /home/nitish/Downloads/Selenium jars/org.apache.commons.io.jar /home/nitish/Downloads/Selenium jars/selenium-server-standalone-3.141.59.jar /home/nitish/eclipse/plugins/org.testng_7.8.0.r202306071539.jar /home/nitish/eclipse/plugins/com.beust.jcommander_1.82.0.jar /home/nitish/eclipse/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /home/nitish/eclipse/plugins/org.yaml.snakeyaml_1.33.0.jar /home/nitish/eclipse/plugins/org.webjars.jquery_3.6.1.jar /home/nitish/Downloads/apache-log4j-1.2.15.jar /home/nitish/Downloads/slf4j-api-1.5.6.jar /home/nitish/Downloads/slf4j-log4j12-1.5.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 45363 -protocol json -d /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/test-output /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/testng.xml
+java -ea -classpath /home/nitish/eclipse/configuration/org.eclipse.osgi/1600/0/.cp/lib/testng-remote.jar:/home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/bin:/home/nitish/Downloads/Selenium jars/byte-buddy-1.8.15.jar:/home/nitish/Downloads/Selenium jars/client-combined-3.141.59.jar:/home/nitish/Downloads/Selenium jars/client-combined-3.141.59-sources.jar:/home/nitish/Downloads/Selenium jars/commons-exec-1.3.jar:/home/nitish/Downloads/Selenium jars/guava-25.0-jre.jar:/home/nitish/Downloads/Selenium jars/okhttp-3.11.0.jar:/home/nitish/Downloads/Selenium jars/okio-1.14.0.jar:/home/nitish/Downloads/Selenium jars/org.apache.commons.io.jar:/home/nitish/Downloads/Selenium jars/selenium-server-standalone-3.141.59.jar:/home/nitish/eclipse/plugins/org.testng_7.8.0.r202306071539.jar:/home/nitish/eclipse/plugins/com.beust.jcommander_1.82.0.jar:/home/nitish/eclipse/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/home/nitish/eclipse/plugins/org.yaml.snakeyaml_1.33.0.jar:/home/nitish/eclipse/plugins/org.webjars.jquery_3.6.1.jar:/home/nitish/Downloads/apache-log4j-1.2.15.jar:/home/nitish/Downloads/slf4j-api-1.5.6.jar:/home/nitish/Downloads/slf4j-log4j12-1.5.6.jar org.testng.remote.RemoteTestNG -serport 45363 -protocol json -d /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/test-output /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2023-06-23 11:23:30.773
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /home/nitish/eclipse/configuration/org.eclipse.osgi/1600/0/.cp/lib/testng-remote.jar /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/bin /home/nitish/Downloads/Selenium jars/byte-buddy-1.8.15.jar /home/nitish/Downloads/Selenium jars/client-combined-3.141.59.jar /home/nitish/Downloads/Selenium jars/client-combined-3.141.59-sources.jar /home/nitish/Downloads/Selenium jars/commons-exec-1.3.jar /home/nitish/Downloads/Selenium jars/guava-25.0-jre.jar /home/nitish/Downloads/Selenium jars/okhttp-3.11.0.jar /home/nitish/Downloads/Selenium jars/okio-1.14.0.jar /home/nitish/Downloads/Selenium jars/org.apache.commons.io.jar /home/nitish/Downloads/Selenium jars/selenium-server-standalone-3.141.59.jar /home/nitish/eclipse/plugins/org.testng_7.8.0.r202306071539.jar /home/nitish/eclipse/plugins/com.beust.jcommander_1.82.0.jar /home/nitish/eclipse/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /home/nitish/eclipse/plugins/org.yaml.snakeyaml_1.33.0.jar /home/nitish/eclipse/plugins/org.webjars.jquery_3.6.1.jar /home/nitish/Downloads/apache-log4j-1.2.15.jar /home/nitish/Downloads/slf4j-api-1.5.6.jar /home/nitish/Downloads/slf4j-log4j12-1.5.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 43063 -protocol json -d /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/test-output /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/testng.xml
+java -ea -classpath /home/nitish/eclipse/configuration/org.eclipse.osgi/1600/0/.cp/lib/testng-remote.jar:/home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/bin:/home/nitish/Downloads/Selenium jars/byte-buddy-1.8.15.jar:/home/nitish/Downloads/Selenium jars/client-combined-3.141.59.jar:/home/nitish/Downloads/Selenium jars/client-combined-3.141.59-sources.jar:/home/nitish/Downloads/Selenium jars/commons-exec-1.3.jar:/home/nitish/Downloads/Selenium jars/guava-25.0-jre.jar:/home/nitish/Downloads/Selenium jars/okhttp-3.11.0.jar:/home/nitish/Downloads/Selenium jars/okio-1.14.0.jar:/home/nitish/Downloads/Selenium jars/org.apache.commons.io.jar:/home/nitish/Downloads/Selenium jars/selenium-server-standalone-3.141.59.jar:/home/nitish/eclipse/plugins/org.testng_7.8.0.r202306071539.jar:/home/nitish/eclipse/plugins/com.beust.jcommander_1.82.0.jar:/home/nitish/eclipse/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/home/nitish/eclipse/plugins/org.yaml.snakeyaml_1.33.0.jar:/home/nitish/eclipse/plugins/org.webjars.jquery_3.6.1.jar:/home/nitish/Downloads/apache-log4j-1.2.15.jar:/home/nitish/Downloads/slf4j-api-1.5.6.jar:/home/nitish/Downloads/slf4j-log4j12-1.5.6.jar org.testng.remote.RemoteTestNG -serport 43063 -protocol json -d /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/test-output /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/testng.xml
+!SESSION 2023-06-26 09:43:41.590 -----------------------------------------------
+eclipse.buildId=4.28.0.20230608-1200
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-06-26 09:43:43.467
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2023-06-26 09:43:43.665
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-06-26 09:43:50.699
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-06-26 09:43:51.643
+!MESSAGE Logback config file: /home/nitish/Desktop/java-Eclipse /Selenium Testing /.metadata/.plugins/org.eclipse.m2e.logback/logback.2.1.200.20230523-2106.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-06-26 09:43:55.690
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-06-26 09:43:55.690
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2023-06-26 09:56:44.833
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.jboss.org/jbosstools/updates/requirements/webtools/3.2.5-20110915223420/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:405)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:388)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:279)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:520)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:448)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:231)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:520)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:78)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2023-06-26 09:56:44.834
+!MESSAGE No repository found at http://download.jboss.org/jbosstools/updates/requirements/webtools/3.2.5-20110915223420/.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-06-26 09:57:14.029
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/mystilleef/eclipse4-smartsave-updatesite/master/com.laboki.eclipse.updatesite.smartsave/content.jar
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2023-06-26 09:57:22.178
+!MESSAGE No repository found at http://dl.bintray.com/testng-team/testng-p2-release/.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2023-06-26 09:57:43.894
+!MESSAGE HTTP Server 'Service Unavailable': https://repository.sonatype.org/content/repositories/forge-sites/m2e-extras/0.14.0/N/0.14.0.201107060316/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpComponents connection error response code 503.
+	at org.eclipse.ecf.provider.filetransfer.httpclient5.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:281)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2023-06-26 09:57:43.895
+!MESSAGE HttpComponents connection error response code 503.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2023-06-26 09:58:00.349
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2023-06-26 09:58:20.338
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.jboss.org/jbosstools/updates/requirements/webtools/3.3.2-20120210195245/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:405)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:388)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:279)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:520)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at jdk.internal.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:448)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:231)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:520)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at jdk.internal.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:448)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:231)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:520)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:78)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2023-06-26 09:58:20.339
+!MESSAGE No repository found at http://download.jboss.org/jbosstools/updates/requirements/webtools/3.3.2-20120210195245/.
+
+!ENTRY org.testng.eclipse 1 0 2023-06-26 11:16:00.628
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /home/nitish/eclipse/configuration/org.eclipse.osgi/1600/0/.cp/lib/testng-remote.jar /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/bin /home/nitish/Downloads/Selenium jars/byte-buddy-1.8.15.jar /home/nitish/Downloads/Selenium jars/client-combined-3.141.59.jar /home/nitish/Downloads/Selenium jars/client-combined-3.141.59-sources.jar /home/nitish/Downloads/Selenium jars/commons-exec-1.3.jar /home/nitish/Downloads/Selenium jars/guava-25.0-jre.jar /home/nitish/Downloads/Selenium jars/okhttp-3.11.0.jar /home/nitish/Downloads/Selenium jars/okio-1.14.0.jar /home/nitish/Downloads/Selenium jars/org.apache.commons.io.jar /home/nitish/Downloads/Selenium jars/selenium-server-standalone-3.141.59.jar /home/nitish/eclipse/plugins/org.testng_7.8.0.r202306071539.jar /home/nitish/eclipse/plugins/com.beust.jcommander_1.82.0.jar /home/nitish/eclipse/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /home/nitish/eclipse/plugins/org.yaml.snakeyaml_1.33.0.jar /home/nitish/eclipse/plugins/org.webjars.jquery_3.6.1.jar /home/nitish/Downloads/apache-log4j-1.2.15.jar /home/nitish/Downloads/slf4j-api-1.5.6.jar /home/nitish/Downloads/slf4j-log4j12-1.5.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 39375 -protocol json -d /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/test-output /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/testng.xml
+java -ea -classpath /home/nitish/eclipse/configuration/org.eclipse.osgi/1600/0/.cp/lib/testng-remote.jar:/home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/bin:/home/nitish/Downloads/Selenium jars/byte-buddy-1.8.15.jar:/home/nitish/Downloads/Selenium jars/client-combined-3.141.59.jar:/home/nitish/Downloads/Selenium jars/client-combined-3.141.59-sources.jar:/home/nitish/Downloads/Selenium jars/commons-exec-1.3.jar:/home/nitish/Downloads/Selenium jars/guava-25.0-jre.jar:/home/nitish/Downloads/Selenium jars/okhttp-3.11.0.jar:/home/nitish/Downloads/Selenium jars/okio-1.14.0.jar:/home/nitish/Downloads/Selenium jars/org.apache.commons.io.jar:/home/nitish/Downloads/Selenium jars/selenium-server-standalone-3.141.59.jar:/home/nitish/eclipse/plugins/org.testng_7.8.0.r202306071539.jar:/home/nitish/eclipse/plugins/com.beust.jcommander_1.82.0.jar:/home/nitish/eclipse/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/home/nitish/eclipse/plugins/org.yaml.snakeyaml_1.33.0.jar:/home/nitish/eclipse/plugins/org.webjars.jquery_3.6.1.jar:/home/nitish/Downloads/apache-log4j-1.2.15.jar:/home/nitish/Downloads/slf4j-api-1.5.6.jar:/home/nitish/Downloads/slf4j-log4j12-1.5.6.jar org.testng.remote.RemoteTestNG -serport 39375 -protocol json -d /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/test-output /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/testng.xml
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-26 11:28:01.811
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-26 11:28:01.811
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-26 11:28:01.812
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-26 11:28:01.812
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-26 11:28:01.816
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-26 11:28:01.818
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.testng.eclipse 1 0 2023-06-26 11:30:24.536
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /home/nitish/eclipse/configuration/org.eclipse.osgi/1600/0/.cp/lib/testng-remote.jar /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/bin /home/nitish/Downloads/Selenium jars/byte-buddy-1.8.15.jar /home/nitish/Downloads/Selenium jars/client-combined-3.141.59.jar /home/nitish/Downloads/Selenium jars/client-combined-3.141.59-sources.jar /home/nitish/Downloads/Selenium jars/commons-exec-1.3.jar /home/nitish/Downloads/Selenium jars/guava-25.0-jre.jar /home/nitish/Downloads/Selenium jars/okhttp-3.11.0.jar /home/nitish/Downloads/Selenium jars/okio-1.14.0.jar /home/nitish/Downloads/Selenium jars/org.apache.commons.io.jar /home/nitish/Downloads/Selenium jars/selenium-server-standalone-3.141.59.jar /home/nitish/eclipse/plugins/org.testng_7.8.0.r202306071539.jar /home/nitish/eclipse/plugins/com.beust.jcommander_1.82.0.jar /home/nitish/eclipse/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /home/nitish/eclipse/plugins/org.yaml.snakeyaml_1.33.0.jar /home/nitish/eclipse/plugins/org.webjars.jquery_3.6.1.jar /home/nitish/Downloads/apache-log4j-1.2.15.jar /home/nitish/Downloads/slf4j-api-1.5.6.jar /home/nitish/Downloads/slf4j-log4j12-1.5.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 33105 -protocol json -d /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/test-output /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/testng.xml
+java -ea -classpath /home/nitish/eclipse/configuration/org.eclipse.osgi/1600/0/.cp/lib/testng-remote.jar:/home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/bin:/home/nitish/Downloads/Selenium jars/byte-buddy-1.8.15.jar:/home/nitish/Downloads/Selenium jars/client-combined-3.141.59.jar:/home/nitish/Downloads/Selenium jars/client-combined-3.141.59-sources.jar:/home/nitish/Downloads/Selenium jars/commons-exec-1.3.jar:/home/nitish/Downloads/Selenium jars/guava-25.0-jre.jar:/home/nitish/Downloads/Selenium jars/okhttp-3.11.0.jar:/home/nitish/Downloads/Selenium jars/okio-1.14.0.jar:/home/nitish/Downloads/Selenium jars/org.apache.commons.io.jar:/home/nitish/Downloads/Selenium jars/selenium-server-standalone-3.141.59.jar:/home/nitish/eclipse/plugins/org.testng_7.8.0.r202306071539.jar:/home/nitish/eclipse/plugins/com.beust.jcommander_1.82.0.jar:/home/nitish/eclipse/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/home/nitish/eclipse/plugins/org.yaml.snakeyaml_1.33.0.jar:/home/nitish/eclipse/plugins/org.webjars.jquery_3.6.1.jar:/home/nitish/Downloads/apache-log4j-1.2.15.jar:/home/nitish/Downloads/slf4j-api-1.5.6.jar:/home/nitish/Downloads/slf4j-log4j12-1.5.6.jar org.testng.remote.RemoteTestNG -serport 33105 -protocol json -d /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/test-output /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2023-06-26 11:30:43.382
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /home/nitish/eclipse/configuration/org.eclipse.osgi/1600/0/.cp/lib/testng-remote.jar /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/bin /home/nitish/Downloads/Selenium jars/byte-buddy-1.8.15.jar /home/nitish/Downloads/Selenium jars/client-combined-3.141.59.jar /home/nitish/Downloads/Selenium jars/client-combined-3.141.59-sources.jar /home/nitish/Downloads/Selenium jars/commons-exec-1.3.jar /home/nitish/Downloads/Selenium jars/guava-25.0-jre.jar /home/nitish/Downloads/Selenium jars/okhttp-3.11.0.jar /home/nitish/Downloads/Selenium jars/okio-1.14.0.jar /home/nitish/Downloads/Selenium jars/org.apache.commons.io.jar /home/nitish/Downloads/Selenium jars/selenium-server-standalone-3.141.59.jar /home/nitish/eclipse/plugins/org.testng_7.8.0.r202306071539.jar /home/nitish/eclipse/plugins/com.beust.jcommander_1.82.0.jar /home/nitish/eclipse/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /home/nitish/eclipse/plugins/org.yaml.snakeyaml_1.33.0.jar /home/nitish/eclipse/plugins/org.webjars.jquery_3.6.1.jar /home/nitish/Downloads/apache-log4j-1.2.15.jar /home/nitish/Downloads/slf4j-api-1.5.6.jar /home/nitish/Downloads/slf4j-log4j12-1.5.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 36255 -protocol json -d /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/test-output /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/testng.xml
+java -ea -classpath /home/nitish/eclipse/configuration/org.eclipse.osgi/1600/0/.cp/lib/testng-remote.jar:/home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/bin:/home/nitish/Downloads/Selenium jars/byte-buddy-1.8.15.jar:/home/nitish/Downloads/Selenium jars/client-combined-3.141.59.jar:/home/nitish/Downloads/Selenium jars/client-combined-3.141.59-sources.jar:/home/nitish/Downloads/Selenium jars/commons-exec-1.3.jar:/home/nitish/Downloads/Selenium jars/guava-25.0-jre.jar:/home/nitish/Downloads/Selenium jars/okhttp-3.11.0.jar:/home/nitish/Downloads/Selenium jars/okio-1.14.0.jar:/home/nitish/Downloads/Selenium jars/org.apache.commons.io.jar:/home/nitish/Downloads/Selenium jars/selenium-server-standalone-3.141.59.jar:/home/nitish/eclipse/plugins/org.testng_7.8.0.r202306071539.jar:/home/nitish/eclipse/plugins/com.beust.jcommander_1.82.0.jar:/home/nitish/eclipse/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/home/nitish/eclipse/plugins/org.yaml.snakeyaml_1.33.0.jar:/home/nitish/eclipse/plugins/org.webjars.jquery_3.6.1.jar:/home/nitish/Downloads/apache-log4j-1.2.15.jar:/home/nitish/Downloads/slf4j-api-1.5.6.jar:/home/nitish/Downloads/slf4j-log4j12-1.5.6.jar org.testng.remote.RemoteTestNG -serport 36255 -protocol json -d /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/test-output /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2023-06-26 12:10:03.290
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /home/nitish/eclipse/configuration/org.eclipse.osgi/1600/0/.cp/lib/testng-remote.jar /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/bin /home/nitish/Downloads/Selenium jars/byte-buddy-1.8.15.jar /home/nitish/Downloads/Selenium jars/client-combined-3.141.59.jar /home/nitish/Downloads/Selenium jars/client-combined-3.141.59-sources.jar /home/nitish/Downloads/Selenium jars/commons-exec-1.3.jar /home/nitish/Downloads/Selenium jars/guava-25.0-jre.jar /home/nitish/Downloads/Selenium jars/okhttp-3.11.0.jar /home/nitish/Downloads/Selenium jars/okio-1.14.0.jar /home/nitish/Downloads/Selenium jars/org.apache.commons.io.jar /home/nitish/Downloads/Selenium jars/selenium-server-standalone-3.141.59.jar /home/nitish/eclipse/plugins/org.testng_7.8.0.r202306071539.jar /home/nitish/eclipse/plugins/com.beust.jcommander_1.82.0.jar /home/nitish/eclipse/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /home/nitish/eclipse/plugins/org.yaml.snakeyaml_1.33.0.jar /home/nitish/eclipse/plugins/org.webjars.jquery_3.6.1.jar /home/nitish/Downloads/apache-log4j-1.2.15.jar /home/nitish/Downloads/slf4j-api-1.5.6.jar /home/nitish/Downloads/slf4j-log4j12-1.5.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 35505 -protocol json -d /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/test-output /tmp/testng-eclipse--2062549674/testng-customsuite.xml
+java -ea -classpath /home/nitish/eclipse/configuration/org.eclipse.osgi/1600/0/.cp/lib/testng-remote.jar:/home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/bin:/home/nitish/Downloads/Selenium jars/byte-buddy-1.8.15.jar:/home/nitish/Downloads/Selenium jars/client-combined-3.141.59.jar:/home/nitish/Downloads/Selenium jars/client-combined-3.141.59-sources.jar:/home/nitish/Downloads/Selenium jars/commons-exec-1.3.jar:/home/nitish/Downloads/Selenium jars/guava-25.0-jre.jar:/home/nitish/Downloads/Selenium jars/okhttp-3.11.0.jar:/home/nitish/Downloads/Selenium jars/okio-1.14.0.jar:/home/nitish/Downloads/Selenium jars/org.apache.commons.io.jar:/home/nitish/Downloads/Selenium jars/selenium-server-standalone-3.141.59.jar:/home/nitish/eclipse/plugins/org.testng_7.8.0.r202306071539.jar:/home/nitish/eclipse/plugins/com.beust.jcommander_1.82.0.jar:/home/nitish/eclipse/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/home/nitish/eclipse/plugins/org.yaml.snakeyaml_1.33.0.jar:/home/nitish/eclipse/plugins/org.webjars.jquery_3.6.1.jar:/home/nitish/Downloads/apache-log4j-1.2.15.jar:/home/nitish/Downloads/slf4j-api-1.5.6.jar:/home/nitish/Downloads/slf4j-log4j12-1.5.6.jar org.testng.remote.RemoteTestNG -serport 35505 -protocol json -d /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/test-output /tmp/testng-eclipse--2062549674/testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2023-06-26 12:16:11.350
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /home/nitish/eclipse/configuration/org.eclipse.osgi/1600/0/.cp/lib/testng-remote.jar /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/bin /home/nitish/Downloads/Selenium jars/byte-buddy-1.8.15.jar /home/nitish/Downloads/Selenium jars/client-combined-3.141.59.jar /home/nitish/Downloads/Selenium jars/client-combined-3.141.59-sources.jar /home/nitish/Downloads/Selenium jars/commons-exec-1.3.jar /home/nitish/Downloads/Selenium jars/guava-25.0-jre.jar /home/nitish/Downloads/Selenium jars/okhttp-3.11.0.jar /home/nitish/Downloads/Selenium jars/okio-1.14.0.jar /home/nitish/Downloads/Selenium jars/org.apache.commons.io.jar /home/nitish/Downloads/Selenium jars/selenium-server-standalone-3.141.59.jar /home/nitish/eclipse/plugins/org.testng_7.8.0.r202306071539.jar /home/nitish/eclipse/plugins/com.beust.jcommander_1.82.0.jar /home/nitish/eclipse/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /home/nitish/eclipse/plugins/org.yaml.snakeyaml_1.33.0.jar /home/nitish/eclipse/plugins/org.webjars.jquery_3.6.1.jar /home/nitish/Downloads/apache-log4j-1.2.15.jar /home/nitish/Downloads/slf4j-api-1.5.6.jar /home/nitish/Downloads/slf4j-log4j12-1.5.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 37097 -protocol json -d /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/test-output /tmp/testng-eclipse-582748443/testng-customsuite.xml
+java -ea -classpath /home/nitish/eclipse/configuration/org.eclipse.osgi/1600/0/.cp/lib/testng-remote.jar:/home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/bin:/home/nitish/Downloads/Selenium jars/byte-buddy-1.8.15.jar:/home/nitish/Downloads/Selenium jars/client-combined-3.141.59.jar:/home/nitish/Downloads/Selenium jars/client-combined-3.141.59-sources.jar:/home/nitish/Downloads/Selenium jars/commons-exec-1.3.jar:/home/nitish/Downloads/Selenium jars/guava-25.0-jre.jar:/home/nitish/Downloads/Selenium jars/okhttp-3.11.0.jar:/home/nitish/Downloads/Selenium jars/okio-1.14.0.jar:/home/nitish/Downloads/Selenium jars/org.apache.commons.io.jar:/home/nitish/Downloads/Selenium jars/selenium-server-standalone-3.141.59.jar:/home/nitish/eclipse/plugins/org.testng_7.8.0.r202306071539.jar:/home/nitish/eclipse/plugins/com.beust.jcommander_1.82.0.jar:/home/nitish/eclipse/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/home/nitish/eclipse/plugins/org.yaml.snakeyaml_1.33.0.jar:/home/nitish/eclipse/plugins/org.webjars.jquery_3.6.1.jar:/home/nitish/Downloads/apache-log4j-1.2.15.jar:/home/nitish/Downloads/slf4j-api-1.5.6.jar:/home/nitish/Downloads/slf4j-log4j12-1.5.6.jar org.testng.remote.RemoteTestNG -serport 37097 -protocol json -d /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/test-output /tmp/testng-eclipse-582748443/testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2023-06-26 12:18:24.095
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /home/nitish/eclipse/configuration/org.eclipse.osgi/1600/0/.cp/lib/testng-remote.jar /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/bin /home/nitish/Downloads/Selenium jars/byte-buddy-1.8.15.jar /home/nitish/Downloads/Selenium jars/client-combined-3.141.59.jar /home/nitish/Downloads/Selenium jars/client-combined-3.141.59-sources.jar /home/nitish/Downloads/Selenium jars/commons-exec-1.3.jar /home/nitish/Downloads/Selenium jars/guava-25.0-jre.jar /home/nitish/Downloads/Selenium jars/okhttp-3.11.0.jar /home/nitish/Downloads/Selenium jars/okio-1.14.0.jar /home/nitish/Downloads/Selenium jars/org.apache.commons.io.jar /home/nitish/Downloads/Selenium jars/selenium-server-standalone-3.141.59.jar /home/nitish/eclipse/plugins/org.testng_7.8.0.r202306071539.jar /home/nitish/eclipse/plugins/com.beust.jcommander_1.82.0.jar /home/nitish/eclipse/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /home/nitish/eclipse/plugins/org.yaml.snakeyaml_1.33.0.jar /home/nitish/eclipse/plugins/org.webjars.jquery_3.6.1.jar /home/nitish/Downloads/apache-log4j-1.2.15.jar /home/nitish/Downloads/slf4j-api-1.5.6.jar /home/nitish/Downloads/slf4j-log4j12-1.5.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 34043 -protocol json -d /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/test-output /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/testng.xml
+java -ea -classpath /home/nitish/eclipse/configuration/org.eclipse.osgi/1600/0/.cp/lib/testng-remote.jar:/home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/bin:/home/nitish/Downloads/Selenium jars/byte-buddy-1.8.15.jar:/home/nitish/Downloads/Selenium jars/client-combined-3.141.59.jar:/home/nitish/Downloads/Selenium jars/client-combined-3.141.59-sources.jar:/home/nitish/Downloads/Selenium jars/commons-exec-1.3.jar:/home/nitish/Downloads/Selenium jars/guava-25.0-jre.jar:/home/nitish/Downloads/Selenium jars/okhttp-3.11.0.jar:/home/nitish/Downloads/Selenium jars/okio-1.14.0.jar:/home/nitish/Downloads/Selenium jars/org.apache.commons.io.jar:/home/nitish/Downloads/Selenium jars/selenium-server-standalone-3.141.59.jar:/home/nitish/eclipse/plugins/org.testng_7.8.0.r202306071539.jar:/home/nitish/eclipse/plugins/com.beust.jcommander_1.82.0.jar:/home/nitish/eclipse/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/home/nitish/eclipse/plugins/org.yaml.snakeyaml_1.33.0.jar:/home/nitish/eclipse/plugins/org.webjars.jquery_3.6.1.jar:/home/nitish/Downloads/apache-log4j-1.2.15.jar:/home/nitish/Downloads/slf4j-api-1.5.6.jar:/home/nitish/Downloads/slf4j-log4j12-1.5.6.jar org.testng.remote.RemoteTestNG -serport 34043 -protocol json -d /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/test-output /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2023-06-26 12:20:29.119
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /home/nitish/eclipse/configuration/org.eclipse.osgi/1600/0/.cp/lib/testng-remote.jar /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/bin /home/nitish/Downloads/Selenium jars/byte-buddy-1.8.15.jar /home/nitish/Downloads/Selenium jars/client-combined-3.141.59.jar /home/nitish/Downloads/Selenium jars/client-combined-3.141.59-sources.jar /home/nitish/Downloads/Selenium jars/commons-exec-1.3.jar /home/nitish/Downloads/Selenium jars/guava-25.0-jre.jar /home/nitish/Downloads/Selenium jars/okhttp-3.11.0.jar /home/nitish/Downloads/Selenium jars/okio-1.14.0.jar /home/nitish/Downloads/Selenium jars/org.apache.commons.io.jar /home/nitish/Downloads/Selenium jars/selenium-server-standalone-3.141.59.jar /home/nitish/eclipse/plugins/org.testng_7.8.0.r202306071539.jar /home/nitish/eclipse/plugins/com.beust.jcommander_1.82.0.jar /home/nitish/eclipse/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /home/nitish/eclipse/plugins/org.yaml.snakeyaml_1.33.0.jar /home/nitish/eclipse/plugins/org.webjars.jquery_3.6.1.jar /home/nitish/Downloads/apache-log4j-1.2.15.jar /home/nitish/Downloads/slf4j-api-1.5.6.jar /home/nitish/Downloads/slf4j-log4j12-1.5.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 35229 -protocol json -d /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/test-output /tmp/testng-eclipse-1959347715/testng-customsuite.xml
+java -ea -classpath /home/nitish/eclipse/configuration/org.eclipse.osgi/1600/0/.cp/lib/testng-remote.jar:/home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/bin:/home/nitish/Downloads/Selenium jars/byte-buddy-1.8.15.jar:/home/nitish/Downloads/Selenium jars/client-combined-3.141.59.jar:/home/nitish/Downloads/Selenium jars/client-combined-3.141.59-sources.jar:/home/nitish/Downloads/Selenium jars/commons-exec-1.3.jar:/home/nitish/Downloads/Selenium jars/guava-25.0-jre.jar:/home/nitish/Downloads/Selenium jars/okhttp-3.11.0.jar:/home/nitish/Downloads/Selenium jars/okio-1.14.0.jar:/home/nitish/Downloads/Selenium jars/org.apache.commons.io.jar:/home/nitish/Downloads/Selenium jars/selenium-server-standalone-3.141.59.jar:/home/nitish/eclipse/plugins/org.testng_7.8.0.r202306071539.jar:/home/nitish/eclipse/plugins/com.beust.jcommander_1.82.0.jar:/home/nitish/eclipse/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/home/nitish/eclipse/plugins/org.yaml.snakeyaml_1.33.0.jar:/home/nitish/eclipse/plugins/org.webjars.jquery_3.6.1.jar:/home/nitish/Downloads/apache-log4j-1.2.15.jar:/home/nitish/Downloads/slf4j-api-1.5.6.jar:/home/nitish/Downloads/slf4j-log4j12-1.5.6.jar org.testng.remote.RemoteTestNG -serport 35229 -protocol json -d /home/nitish/Desktop/java-Eclipse /Selenium Testing /TestNG_Programs/test-output /tmp/testng-eclipse-1959347715/testng-customsuite.xml

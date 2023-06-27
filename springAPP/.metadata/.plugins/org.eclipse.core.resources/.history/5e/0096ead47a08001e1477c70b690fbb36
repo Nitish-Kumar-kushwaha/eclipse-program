@@ -1,0 +1,5 @@
+package com.Hibernate.connection;
+
+public class HibernateConfigure {
+
+}

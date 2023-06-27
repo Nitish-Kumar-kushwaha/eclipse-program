@@ -1,0 +1,35 @@
+package com.loginTest.Controller;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.ComponentScans;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestAttribute;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.loginTest.Model.Register;
+
+@Controller
+public class AppController {
+
+	@GetMapping(value = "/reg")
+	public String home() {
+
+		return "Register";
+	}
+	
+	
+	@PostMapping(value = "/reg")
+	public String home(@RequestAttribute Register reg) {
+
+		return "Register";
+	}
+
+	@GetMapping(value = "/login")
+	public String login() {
+		System.out.println("login called");
+
+		return "Login";
+	}
+
+}
